@@ -1,5 +1,6 @@
 #include <iostream>
 #include "bstree.h"
+#include <queue>
 #include <stack>
 
 // Task 1. Given a tree, return the pointer to the node that has a given key "target". If such node does not exist, return nullptr
@@ -23,38 +24,60 @@ Node* search(BSTree& tree, int target)
     }
     return targetNode;
 }
-
-// Task 2. Given a tree, calculate its height (number of "levels")
-int maxDepth(Node* givenNode)
-{
-    int depthOfLeftST = 0, depthOfRightST = 0;
-    if (givenNode->left)
-        depthOfLeftST = maxDepth(givenNode->left);
-    if (givenNode->right)
-        depthOfRightST = maxDepth(givenNode->right);
-
-    return depthOfLeftST > depthOfRightST ? depthOfLeftST + 1 : depthOfRightST + 1;
-}
-
+// Task 2[v2]. Given a tree, calculate its height (number of "levels") [using Level-order]
 int height(BSTree& tree)
 {
-    Node* curr = tree.root;
-    if (!curr)
-        return 0;
+    Node* currParent = tree.root;
+    int maxHeight = 0;
 
-    int depthOfLeftST = 0, depthOfRightST = 0;
-    if (curr->left)
-        depthOfLeftST = maxDepth(curr->left);
-    if (curr->right)
-        depthOfRightST = maxDepth(curr->right);
-    return depthOfLeftST > depthOfRightST ? depthOfLeftST + 1 : depthOfRightST + 1;
+    std::queue<Node*> nodesToVisit;
+    nodesToVisit.push(currParent);
+    nodesToVisit.push(nullptr);
+
+    while (!nodesToVisit.empty())
+    {
+        currParent = nodesToVisit.front();
+        nodesToVisit.pop();
+
+        if (!currParent)
+            maxHeight++;
+
+        if (currParent)
+        {
+            if (currParent->left)
+                nodesToVisit.push(currParent->left);
+            if (currParent->right)
+                nodesToVisit.push(currParent->right);
+        }
+        else if (!nodesToVisit.empty())
+            nodesToVisit.push(nullptr);
+    }
+    return maxHeight;
 }
-
-
 // Task 3. Given a tree, calculate the sum of the leaves (leaves = nodes without children)
 int sumLeaves(BSTree& tree)
 {
+    Node* currParent = tree.root;
+    if (!currParent)
+        return 0;
 
+    int sumLeaves = 0;
+    std::stack<Node*> nodesToVisit;
+    nodesToVisit.push(currParent);
+    while(!nodesToVisit.empty())
+    {
+        currParent = nodesToVisit.top();
+        nodesToVisit.pop();
+
+        if (currParent->left)
+            nodesToVisit.push(currParent->left);
+        if (currParent->right)
+            nodesToVisit.push(currParent->right);
+
+        if (!currParent->left and !currParent->right)
+            sumLeaves += currParent->key;
+    }
+    return sumLeaves;
 }
 
 int main()
