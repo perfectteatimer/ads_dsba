@@ -11,6 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="algorithmsDSBA_" targetName="contest1_1" />
       <config projectName="algorithmsDSBA_" targetName="binarytrees" />
       <config projectName="algorithmsDSBA_" targetName="algorithmsDSBA_" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_2" />
@@ -29,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSTrees/exercises.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BSTrees/exercises.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests /task1_1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,16 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,7 +61,9 @@
     <option name="minorVersion" value="3.3" />
   </component>
   <component name="ProjectId" id="2WTcEq0UPnGCYRNvI65A16XXL65" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,12 +89,22 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.binarytrees">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="binarytrees" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="binarytrees" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="binarytrees">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest1_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -124,6 +147,7 @@
     <list>
       <item itemvalue="CMake Application.algorithmsDSBA_" />
       <item itemvalue="CMake Application.binarytrees" />
+      <item itemvalue="CMake Application.contest1_1" />
       <item itemvalue="CMake Application.seminar1" />
       <item itemvalue="CMake Application.seminar2" />
       <item itemvalue="CMake Application.seminar3_4_1" />
@@ -143,10 +167,17 @@
       <updated>1696759902674</updated>
       <workItem from="1696759903850" duration="6292000" />
       <workItem from="1696766574915" duration="1000" />
+      <workItem from="1696845438109" duration="2123000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
   </component>
 </project>
