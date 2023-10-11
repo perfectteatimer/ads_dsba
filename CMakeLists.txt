@@ -12,4 +12,3 @@ add_executable(seminar3_4_3 seminar3-4-11-09-23-heapsort/heap-exercise3/kClosest
 add_executable(seminar5_0 seminar5-18-09-23-chrono-radixsort/benchmark.cpp)
 add_executable(seminar5_1 seminar5-18-09-23-chrono-radixsort/radixsort-exercise.cpp)
 add_executable(binarytrees BSTrees/exercises.cpp)
-add_executable(contest1_1 contests/)
