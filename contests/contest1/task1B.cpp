@@ -1,19 +1,17 @@
 #include <iostream>
 #include <vector>
-#include <climits>
-#include <cmath>
 
 void stylishClothes(std::vector<int> tshirtsColours, std::vector<int> pantsColours)
 {
-    int minimal = INT_MAX; // Используйте INT_MAX вместо INT8_MAX
+    int minimal = 1000000;
     size_t iteratorStartShirts = 0;
-    size_t iteratorStartPants = 0; // Исправлено начальное значение для iteratorStartPants
+    size_t iteratorStartPants = 0;
     int tshirtAnswer, pantsAnswer;
-    while (iteratorStartShirts < tshirtsColours.size() && iteratorStartPants < pantsColours.size()) // Исправлено условие
+    while (tshirtsColours.size() > iteratorStartShirts && pantsColours.size() > iteratorStartPants)
     {
-        if (std::abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]) < minimal)
+        if (abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]) < minimal)
         {
-            minimal = std::abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]);
+            minimal = abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]);
             tshirtAnswer = tshirtsColours[iteratorStartShirts];
             pantsAnswer = pantsColours[iteratorStartPants];
         }
@@ -24,6 +22,7 @@ void stylishClothes(std::vector<int> tshirtsColours, std::vector<int> pantsColou
     }
     std::cout << tshirtAnswer << ' ' << pantsAnswer;
 }
+
 
 int main()
 {
