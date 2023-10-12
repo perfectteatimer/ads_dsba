@@ -14,3 +14,4 @@ add_executable(seminar5_1 seminar5-18-09-23-chrono-radixsort/radixsort-exercise.
 add_executable(binarytrees BSTrees/exercises.cpp)
 add_executable(contest1a contests/contest1/task1A.cpp)
 add_executable(contest1b contests/contest1/task1B.cpp)
+add_executable(contest1c contests/contest1/task1C.cpp)

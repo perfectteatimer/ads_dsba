@@ -1,48 +1,64 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 
-void stylishClothes(std::vector<int> tshirtsColours, std::vector<int> pantsColours)
+void stylishClothes(const std::vector<int>& tshirtsColours, const std::vector<int>& pantsColours)
 {
-    int minimal = 1000000;
+    int minimal = 10000000;
+    int tshirtAnswer = tshirtsColours[0];
+    int pantsAnswer = pantsColours[0];
+
     size_t iteratorStartShirts = 0;
     size_t iteratorStartPants = 0;
-    int tshirtAnswer, pantsAnswer;
-    while (tshirtsColours.size() > iteratorStartShirts && pantsColours.size() > iteratorStartPants)
+
+    while (iteratorStartShirts < tshirtsColours.size() && iteratorStartPants < pantsColours.size())
     {
-        if (abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]) < minimal)
+        int diff = std::abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]);
+
+        if (diff == 0)
         {
-            minimal = abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]);
+            tshirtAnswer = tshirtsColours[iteratorStartShirts];
+            pantsAnswer = pantsColours[iteratorStartPants];
+            break;
+        }
+
+        if (diff < minimal)
+        {
+            minimal = diff;
             tshirtAnswer = tshirtsColours[iteratorStartShirts];
             pantsAnswer = pantsColours[iteratorStartPants];
         }
+
         if (tshirtsColours[iteratorStartShirts] < pantsColours[iteratorStartPants])
             ++iteratorStartShirts;
         else
             ++iteratorStartPants;
     }
+
     std::cout << tshirtAnswer << ' ' << pantsAnswer;
 }
-
 
 int main()
 {
     int numberOfTShirts, numberOfPants, colour;
-    std::vector<int> tshirtsColours;
-    std::vector<int> pantsColours;
     std::cin >> numberOfTShirts;
-    int iteratorTS = 0;
-    while (iteratorTS < numberOfTShirts && std::cin >> colour)
+    std::vector<int> tshirtsColours(numberOfTShirts);
+
+    for (int i = 0; i < numberOfTShirts; ++i)
     {
-        tshirtsColours.push_back(colour);
-        ++iteratorTS;
+        std::cin >> colour;
+        tshirtsColours[i] = colour;
     }
-    int iteratorP = 0;
+
     std::cin >> numberOfPants;
-    while (iteratorP < numberOfPants && std::cin >> colour)
+    std::vector<int> pantsColours(numberOfPants);
+
+    for (int i = 0; i < numberOfPants; ++i)
     {
-        pantsColours.push_back(colour);
-        ++iteratorP;
+        std::cin >> colour;
+        pantsColours[i] = colour;
     }
+
     stylishClothes(tshirtsColours, pantsColours);
     return 0;
 }
