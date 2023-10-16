@@ -1,49 +1,58 @@
 #include <iostream>
 #include <vector>
-#include <climits>
-#include <cmath>
-
-void stylishClothes(std::vector<int> tshirtsColours, std::vector<int> pantsColours)
-{
-    int minimal = INT_MAX; // Используйте INT_MAX вместо INT8_MAX
-    size_t iteratorStartShirts = 0;
-    size_t iteratorStartPants = 0; // Исправлено начальное значение для iteratorStartPants
-    int tshirtAnswer, pantsAnswer;
-    while (iteratorStartShirts < tshirtsColours.size() && iteratorStartPants < pantsColours.size()) // Исправлено условие
-    {
-        if (std::abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]) < minimal)
-        {
-            minimal = std::abs(tshirtsColours[iteratorStartShirts] - pantsColours[iteratorStartPants]);
-            tshirtAnswer = tshirtsColours[iteratorStartShirts];
-            pantsAnswer = pantsColours[iteratorStartPants];
-        }
-        if (tshirtsColours[iteratorStartShirts] < pantsColours[iteratorStartPants])
-            ++iteratorStartShirts;
-        else
-            ++iteratorStartPants;
-    }
-    std::cout << tshirtAnswer << ' ' << pantsAnswer;
-}
 
 int main()
 {
-    int numberOfTShirts, numberOfPants, colour;
-    std::vector<int> tshirtsColours;
-    std::vector<int> pantsColours;
-    std::cin >> numberOfTShirts;
-    int iteratorTS = 0;
-    while (iteratorTS < numberOfTShirts && std::cin >> colour)
+    int n = 0;
+    std::vector<int> tSheerts;
+    std::cin >> n;
+    for (int i = 0; i < n; ++i)
     {
-        tshirtsColours.push_back(colour);
-        ++iteratorTS;
+        int colour = 0;
+        std::cin >> colour;
+        tSheerts.push_back(colour);
     }
-    int iteratorP = 0;
-    std::cin >> numberOfPants;
-    while (iteratorP < numberOfPants && std::cin >> colour)
+
+    int k = 0;
+    std::vector<int> pants;
+    std::cin >> k;
+    for (int i = 0; i < k; ++i)
     {
-        pantsColours.push_back(colour);
-        ++iteratorP;
+        int colour = 0;
+        std::cin >> colour;
+        pants.push_back(colour);
     }
-    stylishClothes(tshirtsColours, pantsColours);
-    return 0;
+
+    int difference = 100000000;
+    size_t itSheerts = 0;
+    size_t itPants = 0;
+    int answerSheets = tSheerts[0];
+    int answerPants = pants[0];
+
+    while (itPants < pants.size() and itSheerts < tSheerts.size())
+    {
+        int currentDifference = std::abs(tSheerts[itSheerts] - pants[itPants]);
+
+        if (currentDifference == 0)
+        {
+            answerPants = pants[itPants];
+            answerSheets = tSheerts[itSheerts];
+            break;
+        }
+
+        if (currentDifference < difference)
+        {
+            answerSheets = tSheerts[itSheerts];
+            answerPants = pants[itPants];
+            difference = currentDifference;
+        }
+
+        if (pants[itPants] > tSheerts[itSheerts])
+            itSheerts++;
+
+        else
+            itPants++;
+    }
+
+    std::cout << answerSheets << ' ' << answerPants;
 }
