@@ -15,6 +15,7 @@ add_executable(binarytrees BSTrees/exercises.cpp)
 add_executable(contest1a contests/contest1/task1A.cpp)
 add_executable(contest1b contests/contest1/task1B.cpp)
 add_executable(contest1e contests/contest1/task1E.cpp)
+add_executable(contest1f contests/contest1/task1F.cpp)
 add_executable(seminar6_7_0 seminar6-7-13-10-23-bst/exercise1/inorderSuccessor.cpp)
 add_executable(seminar6_7_1 seminar6-7-13-10-23-bst/exercise2/validBST.cpp)
 
