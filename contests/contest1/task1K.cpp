@@ -7,34 +7,32 @@ void heapify(std::vector<int>& heap, int size, int currentRoot)
     int left = 2 * currentRoot + 1;
     int right = 2 * currentRoot + 2;
 
-    // Проверьте, что left и right находятся в пределах size, а не currentRoot
+    // тут просто проверяю какой из детей больше
     if (left < size && heap[left] > heap[largest])
         largest = left;
     if (right < size && heap[right] > heap[largest])
         largest = right;
 
-    if (largest != currentRoot)
+    if (largest != currentRoot) // если нашли больший элемент чем наш то надо опять бахнуть кучу и проверить ее
     {
         std::swap(heap[currentRoot], heap[largest]);
         heapify(heap, size, largest);
     }
 }
 
-void heapSort(std::vector<int>& array)
+void heapSort(std::vector<int>& array, int size)
 {
-    int size = array.size();
-
-    // Постройте начальную кучу
+    // строим дерево идем от последнего элемента у которого есть дети
     for (int i = size / 2 - 1; i >= 0; --i)
         heapify(array, size, i);
-
-    // Постепенно уменьшайте размер кучи и перемещайте наибольший элемент в конец
+    // меняю корень с последним элементом
     for (int i = size - 1; i > 0; --i)
     {
         std::swap(array[0], array[i]);
-        heapify(array, i, 0);
+        heapify(array, i, 0); // вызываю хипифай чтобы восстановит свойства
     }
 }
+
 
 int main()
 {
@@ -42,18 +40,12 @@ int main()
     std::cin >> sizeOfArray;
     std::vector<int> arr(sizeOfArray);
     int el;
-
-    // Чтение элементов массива
-    for (int i = 0; i < sizeOfArray; ++i) {
+    for (int i = 0; i < sizeOfArray; ++i)
+    {
         std::cin >> el;
         arr[i] = el;
     }
-
-    heapSort(arr);
-
-    // Вывод отсортированного массива
+    heapSort(arr, sizeOfArray);
     for (int el: arr)
         std::cout << el << " ";
-
-    return 0;
 }
