@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 
-void heapify(std::vector<long long>& heap, int size, long long currentRoot)
+void heapify(std::vector<int>& heap, int size, int currentRoot)
 {
-    long long largest = currentRoot;
-    long long left = 2 * currentRoot + 1;
-    long long right = 2 * currentRoot + 2;
+    int largest = currentRoot;
+    int left = 2 * currentRoot + 1;
+    int right = 2 * currentRoot + 2;
 
     // тут просто проверяю какой из детей больше
     if (left < size && heap[left] > heap[largest])
@@ -13,58 +13,61 @@ void heapify(std::vector<long long>& heap, int size, long long currentRoot)
     if (right < size && heap[right] > heap[largest])
         largest = right;
 
-    if (largest != currentRoot) // если нашли больший элемент чем наш то надо опять бахнуть кучу и проверить ее
+    if (largest != currentRoot) // если нашли больший элемент чем наш, то надо опять бахнуть кучу и проверить ее
     {
         std::swap(heap[currentRoot], heap[largest]);
         heapify(heap, size, largest);
     }
 }
 
-
-void deleteRoot(std::vector<long long>& arr, int& n)
+void insert(std::vector<int>& arr, long long num)
 {
-    long long lastEl = arr[n - 1];
-    arr[0] = lastEl; // удаляю максимальный эл (корень главный) просто ставя его на последнее место
-    --n; // и делаю массив меньше
-    heapify(arr, n, 0);
+    arr.push_back(num);
+    int index = arr.size() - 1;
+    // проверяю если родитель меньше тек элемента, то меняем их (ну по сути строю кучу)
+    while (index > 0 && arr[index] > arr[(index - 1) / 2])
+    {
+        std::swap(arr[index], arr[(index - 1) / 2]);
+        index = (index - 1) / 2;
+    }
+}
+
+void deleteRoot(std::vector<int>& arr)
+{
+    int size = arr.size();
+    if (size <= 1) {
+        arr.pop_back();
+        return;
+    }
+    arr[0] = arr[size - 1];
+    arr.pop_back();
+    heapify(arr, arr.size(), 0);
 }
 
 int main()
 {
     std::string operation;
-    std::vector<long long> vec;
-    int sizeOfVec = 0;
+    std::vector<int> vec;
 
     while (std::cin >> operation)
     {
         if (operation == "ADD")
         {
-            long long num;
+            int num;
             std::cin >> num;
-            vec.push_back(num);
-            int index = sizeOfVec;
-            ++sizeOfVec;
-            // проверяю если родитель меньше тек элемента то меняем их (ну по сути строю кучу)
-            while (index > 0 && vec[index] > vec[(index - 1) / 2])
-            {
-                std::swap(vec[index], vec[(index - 1) / 2]);
-                index = (index - 1) / 2;
-            }
+            insert(vec, num);
         }
         else if (operation == "EXTRACT")
         {
-            if (sizeOfVec > 0)
+            if (!vec.empty())
             {
                 std::cout << vec[0] << '\n';
-                deleteRoot(vec, sizeOfVec);
+                deleteRoot(vec);
             }
             else
                 std::cout << "CANNOT" << '\n';
         }
         else if (operation == "CLEAR")
-        {
             vec.clear();
-            sizeOfVec = 0;
-        }
     }
 }
