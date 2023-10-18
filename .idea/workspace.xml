@@ -26,6 +26,7 @@
       <config projectName="algorithmsDSBA_" targetName="contest1h" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_3" />
       <config projectName="algorithmsDSBA_" targetName="seminar5_1" />
+      <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="contest1b" />
       <config projectName="algorithmsDSBA_" targetName="contest1e" />
     </generated>
@@ -36,11 +37,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 1 task d and f">
-      <change afterPath="$PROJECT_DIR$/contests/contest1/task1H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest1/task1K.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest1/task1L.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/contests/contest1/task1I.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -84,16 +82,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/CLionProjects/algorithmsDSBA_&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -102,12 +97,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest1k">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.contest1b">
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,6 +129,11 @@
       </method>
     </configuration>
     <configuration name="contest1h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1h">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest1i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1i">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -193,48 +188,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task1C" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithmsDSBA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contests/contest1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contests/contest1/task1C.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task1D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithmsDSBA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contests/contest1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contests/contest1/task1D.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="CMake Application.algorithmsDSBA_" />
       <item itemvalue="CMake Application.binarytrees" />
@@ -243,6 +196,7 @@
       <item itemvalue="CMake Application.contest1e" />
       <item itemvalue="CMake Application.contest1f" />
       <item itemvalue="CMake Application.contest1h" />
+      <item itemvalue="CMake Application.contest1i" />
       <item itemvalue="CMake Application.contest1k" />
       <item itemvalue="CMake Application.seminar1" />
       <item itemvalue="CMake Application.seminar2" />
@@ -253,15 +207,7 @@
       <item itemvalue="CMake Application.seminar5_1" />
       <item itemvalue="CMake Application.seminar6_7_0" />
       <item itemvalue="CMake Application.seminar6_7_1" />
-      <item itemvalue="Python.task1D" />
-      <item itemvalue="Python.task1C" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.task1D" />
-        <item itemvalue="Python.task1C" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -275,44 +221,9 @@
       <workItem from="1696766574915" duration="1000" />
       <workItem from="1696845438109" duration="2123000" />
       <workItem from="1697045557073" duration="8262000" />
-      <workItem from="1697105316581" duration="3433000" />
-      <workItem from="1697208947067" duration="4946000" />
-      <workItem from="1697372965325" duration="5070000" />
-      <workItem from="1697383378449" duration="1368000" />
-      <workItem from="1697459975103" duration="2263000" />
-      <workItem from="1697462579675" duration="553000" />
-      <workItem from="1697463245041" duration="11004000" />
-      <workItem from="1697531533048" duration="15856000" />
+      <workItem from="1697105316581" duration="2158000" />
+      <workItem from="1697646769094" duration="1000" />
     </task>
-    <task id="LOCAL-00001" summary="contest 1 task B">
-      <created>1697152745918</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1697152745918</updated>
-    </task>
-    <task id="LOCAL-00002" summary="contest 1 task C and pablo tasks">
-      <created>1697463025428</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1697463025428</updated>
-    </task>
-    <task id="LOCAL-00003" summary=" pablo tasks">
-      <created>1697463088418</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1697463088418</updated>
-    </task>
-    <task id="LOCAL-00004" summary="contest 1 task d and f">
-      <created>1697531653312</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1697531653312</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,23 +234,5 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticFoundErrors value="true" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="contest 1 task B" />
-    <MESSAGE value="contest 1 task C and pablo tasks" />
-    <MESSAGE value=" pablo tasks" />
-    <MESSAGE value="contest 1 task d and f" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 1 task d and f" />
   </component>
 </project>

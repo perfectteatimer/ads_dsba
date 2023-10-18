@@ -18,6 +18,7 @@ add_executable(contest1e contests/contest1/task1E.cpp)
 add_executable(contest1f contests/contest1/task1F.cpp)
 add_executable(contest1h contests/contest1/task1H.cpp)
 add_executable(contest1k contests/contest1/task1K.cpp)
+add_executable(contest1i contests/contest1/task1I.cpp)
 add_executable(seminar6_7_0 seminar6-7-13-10-23-bst/exercise1/inorderSuccessor.cpp)
 add_executable(seminar6_7_1 seminar6-7-13-10-23-bst/exercise2/validBST.cpp)
 
