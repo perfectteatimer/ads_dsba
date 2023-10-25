@@ -17,7 +17,9 @@
       <config projectName="algorithmsDSBA_" targetName="seminar6_7_1" />
       <config projectName="algorithmsDSBA_" targetName="seminar1" />
       <config projectName="algorithmsDSBA_" targetName="seminar6_7_0" />
+      <config projectName="algorithmsDSBA_" targetName="contest2a" />
       <config projectName="algorithmsDSBA_" targetName="contest1a" />
+      <config projectName="algorithmsDSBA_" targetName="contest2b" />
       <config projectName="algorithmsDSBA_" targetName="algorithmsDSBA_" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_2" />
       <config projectName="algorithmsDSBA_" targetName="contest1f" />
@@ -28,6 +30,8 @@
       <config projectName="algorithmsDSBA_" targetName="seminar5_1" />
       <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="contest1b" />
+      <config projectName="algorithmsDSBA_" targetName="contest2c" />
+      <config projectName="algorithmsDSBA_" targetName="contest2d" />
       <config projectName="algorithmsDSBA_" targetName="contest1e" />
     </generated>
   </component>
@@ -38,8 +42,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 1 task I">
+      <change afterPath="$PROJECT_DIR$/contests/contest2/task1A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest2/task1B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest2/task1C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest2/task1D.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest1/task1K.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest1/task1K.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +107,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.algorithmsDSBA_">
+  <component name="RunManager" selected="CMake Application.contest2d">
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -138,6 +149,26 @@
       </method>
     </configuration>
     <configuration name="contest1k" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1k" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1k">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest2a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest2b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2b">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest2c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest2d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -197,6 +228,10 @@
       <item itemvalue="CMake Application.contest1h" />
       <item itemvalue="CMake Application.contest1i" />
       <item itemvalue="CMake Application.contest1k" />
+      <item itemvalue="CMake Application.contest2a" />
+      <item itemvalue="CMake Application.contest2b" />
+      <item itemvalue="CMake Application.contest2c" />
+      <item itemvalue="CMake Application.contest2d" />
       <item itemvalue="CMake Application.seminar1" />
       <item itemvalue="CMake Application.seminar2" />
       <item itemvalue="CMake Application.seminar3_4_1" />
@@ -223,7 +258,14 @@
       <workItem from="1697105316581" duration="2158000" />
       <workItem from="1697646769094" duration="1000" />
       <workItem from="1697665833015" duration="24000" />
-      <workItem from="1697665977342" duration="1000" />
+      <workItem from="1697665977342" duration="40000" />
+      <workItem from="1697666970179" duration="26000" />
+      <workItem from="1697667125508" duration="1287000" />
+      <workItem from="1697675724496" duration="1364000" />
+      <workItem from="1697982028266" duration="1000" />
+      <workItem from="1698054797779" duration="10797000" />
+      <workItem from="1698174349131" duration="2722000" />
+      <workItem from="1698244947230" duration="9603000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -232,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697658841918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="contest 1 task I">
+      <created>1697666011802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697666011802</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

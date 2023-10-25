@@ -8,9 +8,9 @@ void heapify(std::vector<int>& heap, int size, int currentRoot)
     int right = 2 * currentRoot + 2;
 
     // тут просто проверяю какой из детей больше
-    if (left < size && heap[left] > heap[largest])
+    if (left < size && heap[left] < heap[largest])
         largest = left;
-    if (right < size && heap[right] > heap[largest])
+    if (right < size && heap[right] < heap[largest])
         largest = right;
 
     if (largest != currentRoot) // если нашли больший элемент чем наш то надо опять бахнуть кучу и проверить ее
@@ -25,12 +25,6 @@ void heapSort(std::vector<int>& array, int size)
     // строим дерево идем от последнего элемента у которого есть дети
     for (int i = size / 2 - 1; i >= 0; --i)
         heapify(array, size, i);
-    // меняю корень с последним элементом
-    for (int i = size - 1; i > 0; --i)
-    {
-        std::swap(array[0], array[i]);
-        heapify(array, i, 0); // вызываю хипифай чтобы восстановит свойства
-    }
 }
 
 
