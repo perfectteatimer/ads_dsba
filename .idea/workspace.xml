@@ -41,7 +41,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 1 task I">
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 2 tasks a-d">
       <change afterPath="$PROJECT_DIR$/contests/contest2/task1A.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/contests/contest2/task1B.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/contests/contest2/task1C.cpp" afterDir="false" />
@@ -265,7 +265,7 @@
       <workItem from="1697982028266" duration="1000" />
       <workItem from="1698054797779" duration="10797000" />
       <workItem from="1698174349131" duration="2722000" />
-      <workItem from="1698244947230" duration="9603000" />
+      <workItem from="1698244947230" duration="10228000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -295,6 +295,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="contest 1 task I" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 1 task I" />
+    <MESSAGE value="contest 2 tasks a-d" />
+    <option name="LAST_COMMIT_MESSAGE" value="contest 2 tasks a-d" />
   </component>
 </project>
