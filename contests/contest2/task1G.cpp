@@ -1,12 +1,26 @@
+// в задаче не сказано ниче про деревья или тому подобное => можно делать как вздумается (я надеюсь)
 #include <iostream>
 #include <map>
 
-void addElement(std::map<int, int>& arr, int index, int value) {
+void addElement(std::map<int, int>& arr, int index, int value)
+{
+    index--;
     arr[index] = value;
 }
 
-void deleteElement(std::map<int, int>& arr, int index) {
+void deleteElement(std::map<int, int>& arr, int index)
+{
+    index--;
     arr.erase(index);
+}
+
+void printResult(const std::map<int, int>& arr)
+{
+    std::cout << arr.size() << '\n';
+    for (const auto& [index, value] : arr) {
+        std::cout << value << " ";
+    }
+    std::cout << '\n';
 }
 
 int main() {
@@ -14,7 +28,7 @@ int main() {
     std::cin >> lengthOfArr >> numberOfRequests;
 
     std::map<int, int> arr;
-    for (int i = 1; i <= lengthOfArr; ++i) {
+    for (int i = 0; i < lengthOfArr; ++i) {
         int value;
         std::cin >> value;
         arr[i] = value;
@@ -34,9 +48,5 @@ int main() {
         }
     }
 
-    std::cout << arr.size() << '\n';
-    for (const auto& [index, value] : arr) {
-        std::cout << value << " ";
-    }
-    std::cout << '\n';
+    printResult(arr);
 }
