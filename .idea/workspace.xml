@@ -14,16 +14,20 @@
       <config projectName="algorithmsDSBA_" targetName="binarytrees" />
       <config projectName="algorithmsDSBA_" targetName="contest1k" />
       <config projectName="algorithmsDSBA_" targetName="seminar2" />
-      <config projectName="algorithmsDSBA_" targetName="seminar6_7_1" />
       <config projectName="algorithmsDSBA_" targetName="seminar1" />
-      <config projectName="algorithmsDSBA_" targetName="seminar6_7_0" />
       <config projectName="algorithmsDSBA_" targetName="contest2a" />
-      <config projectName="algorithmsDSBA_" targetName="contest1a" />
       <config projectName="algorithmsDSBA_" targetName="contest2b" />
       <config projectName="algorithmsDSBA_" targetName="algorithmsDSBA_" />
+      <config projectName="algorithmsDSBA_" targetName="contest2g" />
+      <config projectName="algorithmsDSBA_" targetName="contest2h" />
+      <config projectName="algorithmsDSBA_" targetName="contest2i" />
+      <config projectName="algorithmsDSBA_" targetName="contest2c" />
+      <config projectName="algorithmsDSBA_" targetName="contest2d" />
+      <config projectName="algorithmsDSBA_" targetName="seminar6_7_1" />
+      <config projectName="algorithmsDSBA_" targetName="seminar6_7_0" />
+      <config projectName="algorithmsDSBA_" targetName="contest1a" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_2" />
       <config projectName="algorithmsDSBA_" targetName="contest1f" />
-      <config projectName="algorithmsDSBA_" targetName="contest2g" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_1" />
       <config projectName="algorithmsDSBA_" targetName="seminar5_0" />
       <config projectName="algorithmsDSBA_" targetName="contest1h" />
@@ -31,8 +35,6 @@
       <config projectName="algorithmsDSBA_" targetName="seminar5_1" />
       <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="contest1b" />
-      <config projectName="algorithmsDSBA_" targetName="contest2c" />
-      <config projectName="algorithmsDSBA_" targetName="contest2d" />
       <config projectName="algorithmsDSBA_" targetName="contest1e" />
     </generated>
   </component>
@@ -42,11 +44,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 2 tasks a-d">
-      <change afterPath="$PROJECT_DIR$/contests/contest2/task1G.cpp" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 2 tasks g">
+      <change afterPath="$PROJECT_DIR$/contests/contest2/task1H.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest2/task1G.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest2/task1G.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,12 +107,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.algorithmsDSBA_">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.contest2g">
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -180,6 +178,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="contest2h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2h">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest2i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2i">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="seminar1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -240,6 +248,8 @@
       <item itemvalue="CMake Application.contest2c" />
       <item itemvalue="CMake Application.contest2d" />
       <item itemvalue="CMake Application.contest2g" />
+      <item itemvalue="CMake Application.contest2h" />
+      <item itemvalue="CMake Application.contest2i" />
       <item itemvalue="CMake Application.seminar1" />
       <item itemvalue="CMake Application.seminar2" />
       <item itemvalue="CMake Application.seminar3_4_1" />
@@ -273,7 +283,9 @@
       <workItem from="1697982028266" duration="1000" />
       <workItem from="1698054797779" duration="10797000" />
       <workItem from="1698174349131" duration="2722000" />
-      <workItem from="1698244947230" duration="15265000" />
+      <workItem from="1698244947230" duration="15282000" />
+      <workItem from="1698351056993" duration="2415000" />
+      <workItem from="1698411005991" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -303,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698262054600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="contest 2 tasks g">
+      <created>1698274458372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698274458372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +337,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="contest 1 task I" />
     <MESSAGE value="contest 2 tasks a-d" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 2 tasks a-d" />
+    <MESSAGE value="contest 2 tasks g" />
+    <option name="LAST_COMMIT_MESSAGE" value="contest 2 tasks g" />
   </component>
 </project>

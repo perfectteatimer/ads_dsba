@@ -79,6 +79,8 @@ TNode* remove(TNode* root, int pos)
     return merge(t1.first, t2.second);
 }
 
+
+
 void print(TNode* root)
 {
     if (!root) return;
@@ -87,32 +89,30 @@ void print(TNode* root)
     print(root->right);
 }
 
-int main()
+
+// функция для перемещения солдат с позиций [l, r] в начало строя
+TNode* move_to_front(TNode* root, int l, int r)
 {
+    auto t1 = split(root, r);
+    auto t2 = split(t1.first, l - 1);
+    return merge(merge(t2.second, t2.first), t1.second);
+}
+
+int main() {
     int n, m;
     std::cin >> n >> m;
 
     TNode* root = nullptr;
-    for (int i = 0, x; i < n; ++i)
-    {
-        std::cin >> x;
-        root = insert(root, x, i);
-    }
+    for (int i = 1; i <= n; ++i)
+        root = insert(root, i, i - 1);
+
+    // перестройка
     for (int i = 0; i < m; ++i)
     {
-        std::string op;
-        int pos;
-        std::cin >> op >> pos;
-        if (op == "add")
-        {
-            int x;
-            std::cin >> x;
-            root = insert(root, x, pos);
-        }
-        else if (op == "del")
-            root = remove(root, pos);
+        int l, r;
+        std::cin >> l >> r;
+        root = move_to_front(root, l, r);
     }
-    std::cout << safe_size(root) << '\n';
-    print(root);
 
+    print(root); // Вывод конечного положения солдат
 }
