@@ -13,6 +13,8 @@
     <generated>
       <config projectName="algorithmsDSBA_" targetName="binarytrees" />
       <config projectName="algorithmsDSBA_" targetName="contest1k" />
+      <config projectName="algorithmsDSBA_" targetName="seminar9" />
+      <config projectName="algorithmsDSBA_" targetName="seminar8" />
       <config projectName="algorithmsDSBA_" targetName="seminar2" />
       <config projectName="algorithmsDSBA_" targetName="seminar1" />
       <config projectName="algorithmsDSBA_" targetName="contest2a" />
@@ -20,20 +22,26 @@
       <config projectName="algorithmsDSBA_" targetName="algorithmsDSBA_" />
       <config projectName="algorithmsDSBA_" targetName="contest2g" />
       <config projectName="algorithmsDSBA_" targetName="contest2h" />
-      <config projectName="algorithmsDSBA_" targetName="contest2i" />
       <config projectName="algorithmsDSBA_" targetName="contest2c" />
+      <config projectName="algorithmsDSBA_" targetName="seminar11_2" />
       <config projectName="algorithmsDSBA_" targetName="contest2d" />
+      <config projectName="algorithmsDSBA_" targetName="seminar11_1" />
+      <config projectName="algorithmsDSBA_" targetName="seminar10" />
+      <config projectName="algorithmsDSBA_" targetName="seminar6_7_3" />
+      <config projectName="algorithmsDSBA_" targetName="seminar6_7_2" />
+      <config projectName="algorithmsDSBA_" targetName="seminar13" />
       <config projectName="algorithmsDSBA_" targetName="seminar6_7_1" />
-      <config projectName="algorithmsDSBA_" targetName="seminar6_7_0" />
+      <config projectName="algorithmsDSBA_" targetName="seminar14" />
+      <config projectName="algorithmsDSBA_" targetName="seminar12" />
       <config projectName="algorithmsDSBA_" targetName="contest1a" />
-      <config projectName="algorithmsDSBA_" targetName="seminar3_4_2" />
       <config projectName="algorithmsDSBA_" targetName="contest1f" />
+      <config projectName="algorithmsDSBA_" targetName="seminar3_4_2" />
+      <config projectName="algorithmsDSBA_" targetName="seminar5_2" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_1" />
-      <config projectName="algorithmsDSBA_" targetName="seminar5_0" />
       <config projectName="algorithmsDSBA_" targetName="contest1h" />
+      <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_3" />
       <config projectName="algorithmsDSBA_" targetName="seminar5_1" />
-      <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="contest1b" />
       <config projectName="algorithmsDSBA_" targetName="contest1e" />
     </generated>
@@ -44,13 +52,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 2 tasks g">
-      <change afterPath="$PROJECT_DIR$/contests/contest2/task1H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 2 tasks g h">
+      <change afterPath="$PROJECT_DIR$/seminars/Module2/seminar07-Nov-27-Test/test/solution.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSTrees/AVL.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/Module1/BSTrees/AVL.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSTrees/BSTrees-Traversals.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/Module1/BSTrees/BSTrees-Traversals.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSTrees/bstree.h" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/Module1/BSTrees/bstree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSTrees/exercises.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/Module1/BSTrees/exercises.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contests/contest2/task1G.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest2/task1G.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar1-06-09-23-mergesort/merge-sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar2-06-09-23-countsort/class-notes-countsort-notstable.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar2-06-09-23-countsort/exercise-countsort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar2-06-09-23-countsort/slides-countsort-stable.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar3-4-11-09-23-heapsort/heap-exercise1/heap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar3-4-11-09-23-heapsort/heap-exercise1/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar3-4-11-09-23-heapsort/heap-exercise2/kLargestElement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar3-4-11-09-23-heapsort/heap-exercise3/kClosestOrigin.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar3-4-11-09-23-heapsort/slides-heaps.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar5-18-09-23-chrono-radixsort/Benchmark-Exercise.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar5-18-09-23-chrono-radixsort/benchmark.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar5-18-09-23-chrono-radixsort/radixsort-exercise.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar5-18-09-23-chrono-radixsort/slides-radixsort.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/BSTrees-Traversals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise1/inorderSuccessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/.idea/exercise2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/exercise2/validBST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/homework-solutions/bstree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar6-7-13-10-23-bst/homework-solutions/exercises-solved.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +103,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-seminar14" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -99,15 +132,28 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\CLionProjects\algorithmsDSBA_\seminars\Module2" />
+      <recent name="C:\Users\1\CLionProjects\algorithmsDSBA_\seminars" />
+      <recent name="C:\Users\1\CLionProjects\algorithmsDSBA_\seminars\Module1" />
+      <recent name="C:\Users\1\CLionProjects\algorithmsDSBA_" />
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest2g">
+  <component name="RunManager" selected="CMake Application.seminar14">
+    <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -183,12 +229,37 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest2i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2i">
+    <configuration name="seminar1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar1">
+    <configuration name="seminar10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar11_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar11_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar11_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar11_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar11_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar11_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar12" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar12">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar13" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar13">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar14" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar14">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -213,22 +284,37 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar5_0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar5_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar5_0">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="seminar5_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar5_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar5_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar6_7_0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_0">
+    <configuration name="seminar5_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar5_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar5_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="seminar6_7_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar6_7_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar6_7_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar9">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -249,17 +335,31 @@
       <item itemvalue="CMake Application.contest2d" />
       <item itemvalue="CMake Application.contest2g" />
       <item itemvalue="CMake Application.contest2h" />
-      <item itemvalue="CMake Application.contest2i" />
       <item itemvalue="CMake Application.seminar1" />
+      <item itemvalue="CMake Application.seminar10" />
+      <item itemvalue="CMake Application.seminar11_1" />
+      <item itemvalue="CMake Application.seminar11_2" />
+      <item itemvalue="CMake Application.seminar12" />
+      <item itemvalue="CMake Application.seminar13" />
+      <item itemvalue="CMake Application.seminar14" />
       <item itemvalue="CMake Application.seminar2" />
       <item itemvalue="CMake Application.seminar3_4_1" />
       <item itemvalue="CMake Application.seminar3_4_2" />
       <item itemvalue="CMake Application.seminar3_4_3" />
-      <item itemvalue="CMake Application.seminar5_0" />
       <item itemvalue="CMake Application.seminar5_1" />
-      <item itemvalue="CMake Application.seminar6_7_0" />
+      <item itemvalue="CMake Application.seminar5_2" />
       <item itemvalue="CMake Application.seminar6_7_1" />
+      <item itemvalue="CMake Application.seminar6_7_2" />
+      <item itemvalue="CMake Application.seminar6_7_3" />
+      <item itemvalue="CMake Application.seminar8" />
+      <item itemvalue="CMake Application.seminar9" />
+      <item itemvalue="CMake Debug.algorithmsDSBA_" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Debug.algorithmsDSBA_" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -286,6 +386,16 @@
       <workItem from="1698244947230" duration="15282000" />
       <workItem from="1698351056993" duration="2415000" />
       <workItem from="1698411005991" duration="643000" />
+      <workItem from="1698578312442" duration="41000" />
+      <workItem from="1698868026986" duration="57000" />
+      <workItem from="1698868781662" duration="1260000" />
+      <workItem from="1700817159629" duration="322000" />
+      <workItem from="1700831982550" duration="22000" />
+      <workItem from="1701095726576" duration="105000" />
+      <workItem from="1701095845487" duration="1046000" />
+      <workItem from="1701097925731" duration="18000" />
+      <workItem from="1701097951824" duration="6850000" />
+      <workItem from="1701104949116" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -322,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698274458372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="contest 2 tasks g h">
+      <created>1698578338008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698578338008</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +455,11 @@
     <MESSAGE value="contest 1 task I" />
     <MESSAGE value="contest 2 tasks a-d" />
     <MESSAGE value="contest 2 tasks g" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 2 tasks g" />
+    <MESSAGE value="contest 2 tasks g h" />
+    <option name="LAST_COMMIT_MESSAGE" value="contest 2 tasks g h" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
