@@ -1,15 +1,15 @@
 #include <iostream>
 #include <vector>
 
-void printPrefixFunction(const std::vector<int16_t>& preffArr)
+void printPrefixFunction(const std::vector<int>& preffArr)
 {
-    for (const int16_t& val : preffArr)
+    for (const int& val : preffArr)
         std::cout << val << " ";
 }
 
 void calculatePrefixFunction(const std::string& text)
 {
-    std::vector<int16_t> prefArr(text.size(), 0);
+    std::vector<int> prefArr(text.size(), 0);
     for (size_t i = 1; i < text.length(); ++i)
     {
         // initialize len to the value of the prefix function at the previous position

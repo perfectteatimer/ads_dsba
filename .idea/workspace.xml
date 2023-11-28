@@ -52,10 +52,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="added seminars">
-      <change afterPath="$PROJECT_DIR$/contests/contest3/task1A.cpp" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="task1 contest 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +111,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.contest3a">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -344,7 +337,8 @@
       <workItem from="1698244947230" duration="15282000" />
       <workItem from="1698351056993" duration="2415000" />
       <workItem from="1698411005991" duration="643000" />
-      <workItem from="1701210071286" duration="5169000" />
+      <workItem from="1701210071286" duration="5229000" />
+      <workItem from="1701215607727" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -381,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698274458372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task1 contest 3">
+      <created>1701215548568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701215548568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,6 +398,7 @@
     <MESSAGE value="contest 1 task I" />
     <MESSAGE value="contest 2 tasks a-d" />
     <MESSAGE value="contest 2 tasks g" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 2 tasks g" />
+    <MESSAGE value="task1 contest 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1 contest 3" />
   </component>
 </project>
