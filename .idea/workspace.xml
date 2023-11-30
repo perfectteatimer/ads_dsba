@@ -53,7 +53,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="task1 contest 3">
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="task2 contest 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contests/contest3/task3b.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3b.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -349,7 +349,10 @@
       <workItem from="1701210071286" duration="5229000" />
       <workItem from="1701215607727" duration="1000" />
       <workItem from="1701296086155" duration="3617000" />
-      <workItem from="1701340691227" duration="1720000" />
+      <workItem from="1701340691227" duration="2476000" />
+      <workItem from="1701360106847" duration="2721000" />
+      <workItem from="1701366719667" duration="502000" />
+      <workItem from="1701368255920" duration="5051000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -393,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701215548568</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="task2 contest 3">
+      <created>1701345133468</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701345133468</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +420,7 @@
     <MESSAGE value="contest 2 tasks a-d" />
     <MESSAGE value="contest 2 tasks g" />
     <MESSAGE value="task1 contest 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1 contest 3" />
+    <MESSAGE value="task2 contest 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2 contest 3" />
   </component>
 </project>
