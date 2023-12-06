@@ -14,7 +14,8 @@ void knapsack(int w, std::vector<int>& weights, std::vector<int>& values)
                 k[i] = std::max(k[i], k[i - weights[j]] + values[j]);
         }
     }
-    std::cout << k[w];
+    for(int val: k)
+        std::cout<< val << " ";
 }
 
 int main()
@@ -23,3 +24,4 @@ int main()
     std::vector<int> values = {1, 4, 6};
     knapsack(6, weights, values);
 }
+
