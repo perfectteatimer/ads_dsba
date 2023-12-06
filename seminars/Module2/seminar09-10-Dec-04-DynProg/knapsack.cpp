@@ -18,6 +18,7 @@ void knapsack(int w, std::vector<int>& weights, std::vector<int>& values)
         std::cout<< val << " ";
 }
 
+
 int main()
 {
     std::vector<int> weights = {1, 2, 3};

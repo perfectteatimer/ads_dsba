@@ -20,6 +20,7 @@ int minCoins(int target, const std::vector<int>& coins)
     return K[target] == INT_MAX ? -1 : K[target];
 }
 
+
 int main()
 {
     std::vector<int> coins = {1, 2, 5};
