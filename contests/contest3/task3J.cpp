@@ -25,5 +25,4 @@ int main()
     std::vector<int> suffixArray = buildSuffixArray(s);
     for (int idx : suffixArray)
         std::cout << idx + 1 << " ";
-
 }

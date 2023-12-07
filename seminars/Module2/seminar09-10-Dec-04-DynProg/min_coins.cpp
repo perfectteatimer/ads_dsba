@@ -24,5 +24,5 @@ int minCoins(int target, const std::vector<int>& coins)
 int main()
 {
     std::vector<int> coins = {1, 2, 5};
-    std::cout<< minCoins(6, coins);
+    std::cout << minCoins(6, coins);
 }

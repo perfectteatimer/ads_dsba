@@ -58,12 +58,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 3 task D solved">
-      <change afterPath="$PROJECT_DIR$/seminars/Module2/seminar09-10-Dec-04-DynProg/knapsack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminars/Module2/seminar09-10-Dec-04-DynProg/min_coins.cpp" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="seminar tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest3/task3G.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3G.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest3/task3J.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3J.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminars/Module2/seminar09-10-Dec-04-DynProg/min_coins.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/Module2/seminar09-10-Dec-04-DynProg/min_coins.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f68d199a-95b9-4d12-b2c2-d908f03d1953" />
+        <option name="url" value="https://github.com/perfectteatimer/algorithmsDSBA_.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -126,7 +139,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.seminar15_2">
+  <component name="RunManager" selected="CMake Application.contest3g">
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -398,7 +411,8 @@
       <workItem from="1701368255920" duration="14066000" />
       <workItem from="1701422283034" duration="35000" />
       <workItem from="1701703867794" duration="3669000" />
-      <workItem from="1701879851090" duration="1000" />
+      <workItem from="1701879851090" duration="857000" />
+      <workItem from="1701971575205" duration="5117000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -463,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701422310753</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="seminar taskn">
+      <created>1701879892683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701879892683</updated>
+    </task>
+    <task id="LOCAL-00011" summary="seminar tasks">
+      <created>1701879997664</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701879997664</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,6 +511,8 @@
     <MESSAGE value="task2 contest 3" />
     <MESSAGE value="task2 contest 3 end" />
     <MESSAGE value="contest 3 task D solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 3 task D solved" />
+    <MESSAGE value="seminar taskn" />
+    <MESSAGE value="seminar tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar tasks" />
   </component>
 </project>

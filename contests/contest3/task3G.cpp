@@ -1,26 +1,48 @@
 #include <iostream>
 #include <string>
-#include <set>
+#include <algorithm>
+#include <vector>
 
-long long calcSub(std::string& s)
+// using rucode
+
+std::vector<int> zFunction(const std::string& s)
 {
-    std::set<std::string> uniqueSubstrings;
-    for (size_t i = 0; i < s.length(); ++i)
+    int n = s.length();
+    std::vector<int> z(n);
+    for (int i = 1, l = 0, r = 0; i < n; ++i)
     {
-        for (size_t j = i + 1; j < s.length() + 1; ++j)
+        if (i <= r)
         {
-            uniqueSubstrings.insert(s.substr(i, j - i));
+            z[i] = std::min(r - i + 1, z[i - l]);
+        }
+        while (i + z[i] < n && s[z[i]] == s[i + z[i]])
+        {
+            ++z[i];
+        }
+        if (i + z[i] - 1 > r)
+        {
+            l = i;
+            r = i + z[i] - 1;
         }
     }
-    return uniqueSubstrings.size();
+    return z;
 }
 
 
+void calSubStrings(const std::string& t)
+{
+    std::vector<int> zF = zFunction(t);
+    for (size_t i = 0; i < zF.size(); ++i)
+    {
+        std::cout << zF[i];
+    }
+}
+
 int main()
 {
-    std::ios_base::sync_with_stdio(false); //ускоряет код
-    std::cin.tie(nullptr);
     std::string s;
     std::cin >> s;
-    std::cout <<  calcSub(s);
+    std::string t = s + 's';
+    std::reverse(t.begin(), t.end());
+    calSubStrings(t);
 }

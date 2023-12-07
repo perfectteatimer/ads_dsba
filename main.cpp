@@ -1,25 +1,47 @@
 #include <iostream>
-#include <vector>
+#include <string>
 #include <algorithm>
+#include <vector>
 
-void knapsack(int w, std::vector<int>& weights, std::vector<int>& values)
+std::vector<int> zFunction(const std::string& s)
 {
-    std::vector<int> k(w + 1, 0);
-
-    for(size_t i = 1; i <= w; ++i)
+    int n = s.length();
+    std::vector<int> z(n);
+    for (int i = 1, l = 0, r = 0; i < n; ++i)
     {
-        for (size_t j = 0; j < weights.size(); ++j)
+        if (i <= r)
         {
-            if (weights[j] <= i)
-                k[i] = std::max(k[i], k[i - weights[j]] + values[j]);
+            z[i] = std::min(r - i + 1, z[i - l]);
+        }
+        while (i + z[i] < n && s[z[i]] == s[i + z[i]])
+        {
+            ++z[i];
+        }
+        if (i + z[i] - 1 > r)
+        {
+            l = i;
+            r = i + z[i] - 1;
         }
     }
-    std::cout << k[w];
+    return z;
+}
+
+void calSubStrings(const std::string& t)
+{
+    std::vector<int> zF = zFunction(t);
+    for (size_t i = 0; i < zF.size(); ++i)
+    {
+        std::cout << zF[i] << " ";
+    }
+    std::cout << std::endl;
 }
 
 int main()
 {
-    std::vector<int> weights = {1, 2, 3};
-    std::vector<int> values = {1, 4, 6};
-    knapsack(6, weights, values);
+    std::string s;
+    std::cin >> s;
+    std::string t = s + s[0];
+    std::reverse(t.begin(), t.end());
+    std::cout << "Transformed String: " << t << std::endl; // Debug print
+    calSubStrings(t);
 }
