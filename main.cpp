@@ -1,47 +1,32 @@
 #include <iostream>
-#include <string>
-#include <algorithm>
 #include <vector>
+#include <string>
 
-std::vector<int> zFunction(const std::string& s)
-{
-    int n = s.length();
-    std::vector<int> z(n);
-    for (int i = 1, l = 0, r = 0; i < n; ++i)
-    {
-        if (i <= r)
-        {
-            z[i] = std::min(r - i + 1, z[i - l]);
-        }
-        while (i + z[i] < n && s[z[i]] == s[i + z[i]])
-        {
-            ++z[i];
-        }
-        if (i + z[i] - 1 > r)
-        {
-            l = i;
-            r = i + z[i] - 1;
+std::string constructWordFromPrefix(const std::vector<int>& prefixFunction) {
+    std::string word = "a";  // Start with an arbitrary character
+    char nextChar = 'b';     // Next character for the case of 0 in prefix function
+
+    for (size_t i = 1; i < prefixFunction.size(); ++i) {
+        if (prefixFunction[i] == 0) {
+            // If the prefix function is 0, add a new character
+            word += nextChar;
+            // Move to the next character
+            nextChar++;
+        } else {
+            // If the prefix function is not 0, repeat the character from the corresponding position
+            word += word[prefixFunction[i] - 1];
         }
     }
-    return z;
+
+    return word;
 }
 
-void calSubStrings(const std::string& t)
-{
-    std::vector<int> zF = zFunction(t);
-    for (size_t i = 0; i < zF.size(); ++i)
-    {
-        std::cout << zF[i] << " ";
-    }
-    std::cout << std::endl;
-}
+int main() {
+    // Example usage
+    std::vector<int> prefixFunction = {0, 0, 1, 0, 1, 2, 3, 1};
+    std::string constructedWord = constructWordFromPrefix(prefixFunction);
 
-int main()
-{
-    std::string s;
-    std::cin >> s;
-    std::string t = s + s[0];
-    std::reverse(t.begin(), t.end());
-    std::cout << "Transformed String: " << t << std::endl; // Debug print
-    calSubStrings(t);
+    std::cout << "Constructed Word: " << constructedWord << std::endl;
+
+    return 0;
 }

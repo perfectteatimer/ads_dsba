@@ -22,6 +22,7 @@ add_executable(contest3b contests/contest3/task3B.cpp)
 add_executable(contest3g contests/contest3/task3G.cpp)
 add_executable(contest3j contests/contest3/task3j.cpp)
 add_executable(contest3d contests/contest3/task3D.cpp)
+add_executable(contest3e contests/contest3/task3E.cpp)
 
 # seminars
 add_executable(binarytrees seminars/Module1/BSTrees/exercises.cpp)

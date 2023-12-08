@@ -48,6 +48,7 @@
       <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="contest1b" />
       <config projectName="algorithmsDSBA_" targetName="contest3d" />
+      <config projectName="algorithmsDSBA_" targetName="contest3e" />
       <config projectName="algorithmsDSBA_" targetName="contest1e" />
       <config projectName="algorithmsDSBA_" targetName="contest3g" />
     </generated>
@@ -58,12 +59,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="seminar tasks">
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 3">
+      <change afterPath="$PROJECT_DIR$/contests/contest3/task3E.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contests/contest3/task3G.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3G.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contests/contest3/task3J.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3J.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminars/Module2/seminar09-10-Dec-04-DynProg/min_coins.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/Module2/seminar09-10-Dec-04-DynProg/min_coins.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,12 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest3g">
+  <component name="RunManager" selected="CMake Application.contest3e">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -221,6 +226,11 @@
       </method>
     </configuration>
     <configuration name="contest3d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest3e" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3e" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3e">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -353,6 +363,7 @@
       <item itemvalue="CMake Application.contest3a" />
       <item itemvalue="CMake Application.contest3b" />
       <item itemvalue="CMake Application.contest3d" />
+      <item itemvalue="CMake Application.contest3e" />
       <item itemvalue="CMake Application.contest3g" />
       <item itemvalue="CMake Application.contest3j" />
       <item itemvalue="CMake Application.seminar1" />
@@ -412,7 +423,8 @@
       <workItem from="1701422283034" duration="35000" />
       <workItem from="1701703867794" duration="3669000" />
       <workItem from="1701879851090" duration="857000" />
-      <workItem from="1701971575205" duration="5117000" />
+      <workItem from="1701971575205" duration="5153000" />
+      <workItem from="1702050538800" duration="5673000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -491,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701879997664</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="contest 3">
+      <created>1701991905120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701991905120</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,6 +532,7 @@
     <MESSAGE value="contest 3 task D solved" />
     <MESSAGE value="seminar taskn" />
     <MESSAGE value="seminar tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar tasks" />
+    <MESSAGE value="contest 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="contest 3" />
   </component>
 </project>
