@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <vector>
 
-// using rucode
+// using emaxx
 
 std::vector<int> zFunction(const std::string& s)
 {
@@ -29,20 +29,24 @@ std::vector<int> zFunction(const std::string& s)
 }
 
 
-void calSubStrings(const std::string& t)
+int calSubStrings(const std::string& input)
 {
-    std::vector<int> zF = zFunction(t);
-    for (size_t i = 0; i < zF.size(); ++i)
+    std::string s;
+    int count = 0; // считать уникальные подстроки
+
+    for (char c: input)
     {
-        std::cout << zF[i];
+        s = c + s;
+        std::vector<int> z = zFunction(s);
+        int zMax = *std::max_element(z.begin(), z.end());
+        count += s.size() - zMax;
     }
+    return count;
 }
 
 int main()
 {
-    std::string s;
-    std::cin >> s;
-    std::string t = s + 's';
-    std::reverse(t.begin(), t.end());
-    calSubStrings(t);
+    std::string input;
+    std::cin >> input;
+    std::cout << calSubStrings(input);
 }

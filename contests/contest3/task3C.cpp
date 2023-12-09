@@ -24,6 +24,8 @@ int numberOfPalindromes(const std::string& s)
 
 int main()
 {
+    std::ios_base::sync_with_stdio(false); //ускоряет код
+    std::cin.tie(nullptr);
     std::string s;
     std::cin >> s;
     std::cout << numberOfPalindromes(s);
