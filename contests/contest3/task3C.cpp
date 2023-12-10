@@ -3,7 +3,7 @@
 
 int expanding(const std::string& s, int L, int R)
 {
-    while (L >= 0 && R < s.length() && s[L] == s[R])
+    while (s[L] == s[R] && L >= 0 && R < s.length())
     {
         --L;
         ++R;
