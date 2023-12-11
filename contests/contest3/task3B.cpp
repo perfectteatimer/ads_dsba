@@ -5,12 +5,12 @@
 // na4erpal vse shto mozno
 
 std::vector<long long> hashes;
-std::vector<long long> primePow;
+std::vector<long long> prime_pow;
 const long long prime = 1e9+9;
 
 long long getHash(int begin, int end)
 {
-    return hashes[end + 1] - hashes[begin] * primePow[end - begin + 1];
+    return hashes[end + 1] - hashes[begin] * prime_pow[end - begin + 1];
 }
 
 bool equalSubstr(int a, int b, int c, int d)
@@ -21,13 +21,13 @@ bool equalSubstr(int a, int b, int c, int d)
 
 void hashing(std::string& s, size_t m)
 {
-    primePow.resize(s.length() + 1);
+    prime_pow.resize(s.length() + 1);
     hashes.resize(s.length() + 1);
-    hashes[0] = 0, primePow[0] = 1;
+    hashes[0] = 0, prime_pow[0] = 1;
     for (size_t i = 0; i < s.length()  ; ++i)
     {
         hashes[i + 1] = (hashes[i] * prime + s[i]);
-        primePow[i + 1] = (primePow[i] * prime);
+        prime_pow[i + 1] = (prime_pow[i] * prime);
     }
     for (size_t i = 0; i < m; ++i)
     {
