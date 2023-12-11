@@ -11,7 +11,6 @@ const long long prime = 1e9+9;
 long long getHash(int begin, int end)
 {
     return hashes[end + 1] - hashes[begin] * primePow[end - begin + 1];
-
 }
 
 bool equalSubstr(int a, int b, int c, int d)
