@@ -41,6 +41,7 @@
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_2" />
       <config projectName="algorithmsDSBA_" targetName="contest1f" />
       <config projectName="algorithmsDSBA_" targetName="seminar5_2" />
+      <config projectName="algorithmsDSBA_" targetName="contest3h" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_1" />
       <config projectName="algorithmsDSBA_" targetName="contest1h" />
       <config projectName="algorithmsDSBA_" targetName="contest3j" />
@@ -60,10 +61,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="task2 contest 3">
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 3">
+      <change afterPath="$PROJECT_DIR$/contests/contest3/task3H.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contests/contest3/task3B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3B.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contests/contest3/task3C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contests/contest3/task3J.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest3/task3J.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -146,7 +147,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest3c">
+  <component name="RunManager" selected="CMake Application.algorithmsDSBA_">
     <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -246,6 +247,11 @@
       </method>
     </configuration>
     <configuration name="contest3g" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3g" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3g">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest3h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3h">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -376,6 +382,7 @@
       <item itemvalue="CMake Application.contest3d" />
       <item itemvalue="CMake Application.contest3e" />
       <item itemvalue="CMake Application.contest3g" />
+      <item itemvalue="CMake Application.contest3h" />
       <item itemvalue="CMake Application.contest3j" />
       <item itemvalue="CMake Application.seminar1" />
       <item itemvalue="CMake Application.seminar10" />
@@ -445,6 +452,7 @@
       <workItem from="1702113415927" duration="8743000" />
       <workItem from="1702245821184" duration="2559000" />
       <workItem from="1702304432764" duration="3000" />
+      <workItem from="1702420938337" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -551,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702166170572</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="contest 3">
+      <created>1702383723170</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702383723170</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

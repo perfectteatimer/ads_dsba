@@ -66,7 +66,7 @@ int main()
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
     std::string s;
-    std::cin >> s;
+    std::getline(std::cin, s);
     std::vector<size_t> ind;
 
     for (char c: s)
