@@ -59,6 +59,7 @@ int main() {
     for (auto x: even) {
         cnt += x;
     }
+
     std::cout << cnt;
     return 0;
 }

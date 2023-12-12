@@ -72,7 +72,6 @@ int main()
 
     for (char c: s)
         ind.push_back(c);
-
     std::vector<size_t> ans = build_suff_arr(ind);
     for (size_t i = 1; i < ans.size(); ++i)
         std::cout << ans[i] + 1 << ' ';
