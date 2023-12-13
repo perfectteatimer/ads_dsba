@@ -1,43 +1,63 @@
 #include <iostream>
 #include <vector>
-#include <cstring>
 #include <algorithm>
 
-struct Suffix {
-    size_t index;
-    const char* suffix;
-};
-
-bool customComparator(const Suffix& lhv, const Suffix& rhv) {
-    return std::strcmp(lhv.suffix, rhv.suffix) < 0;
-}
-
-std::vector<size_t> GetSuffixArray(const std::string& inputStr) {
-    size_t tempSize = inputStr.size();
-    std::vector<Suffix> suffixes(tempSize);
-
-    for (size_t i = 0; i < tempSize; i++) {
-        suffixes[i].index = i;
-        suffixes[i].suffix = inputStr.c_str() + i;
+// manacher's algorithm for 100000000-d time
+long long countPalindromicSubstrings(const std::string& s) {
+    // Preprocess the input string to include special characters
+    std::string processedString = "#";
+    for (char c : s)
+    {
+        processedString += c;
+        processedString += '#';
     }
 
-    std::sort(suffixes.begin(), suffixes.end(), customComparator);
+    int n = processedString.size();
+    std::vector<long long> palindromeLengths(n, 0);
 
-    std::vector<size_t> result(tempSize);
-    for (size_t i = 0; i < tempSize; i++)
-        result[i] = suffixes[i].index;
+    long long center = 0,  right = 0;
+    long long totalPalindromes = 0;
 
-    return result;
+    for (int i = 0; i < n; ++i)
+    {
+        long long mirror = 2 * center - i;
+
+        if (i < right)
+            palindromeLengths[i] = std::min(right - i, palindromeLengths[mirror]);
+
+        // Attempt to expand palindrome centered at i
+        int a = i + (1 + palindromeLengths[i]);
+        int b = i - (1 + palindromeLengths[i]);
+
+        while (a < n && b >= 0 && processedString[a] == processedString[b])
+        {
+            palindromeLengths[i]++;
+            a++;
+            b--;
+        }
+
+        // If palindrome centered at i expands past right,
+        // adjust center and right based on current palindrome
+        if (i + palindromeLengths[i] > right)
+        {
+            center = i;
+            right = i + palindromeLengths[i];
+        }
+
+        // Count the palindromes at the current position
+        totalPalindromes += (palindromeLengths[i] + 1) / 2;
+    }
+
+    return totalPalindromes;
 }
 
 int main() {
-    std::string inputStr;
-    std::getline(std::cin, inputStr);
+    std::string input(100000, 'a');
 
-    std::vector<size_t> tempVec = GetSuffixArray(inputStr);
 
-    for (auto& temp : tempVec)
-        std::cout << temp + 1 << " ";
+    long long result = countPalindromicSubstrings(input);
+
+    std::cout << result - input.size();
 
     return 0;
 }
