@@ -1,63 +1,72 @@
 #include <iostream>
+#include <string>
 #include <vector>
 #include <algorithm>
 
-// manacher's algorithm for 100000000-d time
-long long countPalindromicSubstrings(const std::string& s) {
-    // Preprocess the input string to include special characters
-    std::string processedString = "#";
-    for (char c : s)
-    {
-        processedString += c;
-        processedString += '#';
+// Function to calculate the Longest Common Prefix (LCP) array given a suffix array and the original text.
+void lcp(int size, const std::vector<int>& suff_arr, std::string& text) {
+    // lcp: Array to store the length of the longest common prefix between consecutive suffixes.
+    std::vector<int> lcp(size, 0);
+
+    // lcp_reversed: Array to store the rank of each suffix in the sorted order of suffixes.
+    std::vector<int> lcp_reversed(size, 0);
+
+    // Assign ranks to suffixes based on their position in the suffix array.
+    for (size_t i = 0; i < size; ++i)
+        lcp_reversed[suff_arr[i]] = i;
+
+    // k: Length of the common prefix found so far.
+    size_t k = 0;
+
+    // Iterate over each suffix in the original string.
+    for (size_t i = 0; i < size; ++i) {
+        if (k > 0) --k;
+
+        // If the current suffix is the last one in the sorted order, set LCP to -1 and reset k.
+        if (lcp_reversed[i] == size - 1)
+        {
+            k = 0;
+            continue;
+        } else {
+            // j: Index of the next suffix in the sorted order.
+            int j = suff_arr[lcp_reversed[i] + 1];
+
+            // Calculate the LCP of the current suffix and the next suffix in the sorted order.
+            while (i + k < size && j + k < size && text[i + k] == text[j + k]) {
+                ++k;
+            }
+
+            // Assign the LCP length to the current suffix's position in the LCP array.
+            lcp[lcp_reversed[i]] = k;
+        }
     }
 
-    int n = processedString.size();
-    std::vector<long long> palindromeLengths(n, 0);
-
-    long long center = 0,  right = 0;
-    long long totalPalindromes = 0;
-
-    for (int i = 0; i < n; ++i)
-    {
-        long long mirror = 2 * center - i;
-
-        if (i < right)
-            palindromeLengths[i] = std::min(right - i, palindromeLengths[mirror]);
-
-        // Attempt to expand palindrome centered at i
-        int a = i + (1 + palindromeLengths[i]);
-        int b = i - (1 + palindromeLengths[i]);
-
-        while (a < n && b >= 0 && processedString[a] == processedString[b])
-        {
-            palindromeLengths[i]++;
-            a++;
-            b--;
-        }
-
-        // If palindrome centered at i expands past right,
-        // adjust center and right based on current palindrome
-        if (i + palindromeLengths[i] > right)
-        {
-            center = i;
-            right = i + palindromeLengths[i];
-        }
-
-        // Count the palindromes at the current position
-        totalPalindromes += (palindromeLengths[i] + 1) / 2;
+    // Print the LCP array.
+    for (size_t i = 0; i < size - 1; ++i) {
+        std::cout << lcp[i] << " ";
     }
-
-    return totalPalindromes;
 }
 
+// The main function to read input and call the LCP calculation function.
 int main() {
-    std::string input(100000, 'a');
+    int n;  // The length of the string.
+    std::string text;  // The input text.
 
+    // Read the length and the text.
+    std::cin >> n;
+    std::cin >> text;
+    text += "$";  // Append the end-of-string marker.
 
-    long long result = countPalindromicSubstrings(input);
+    // suff_arr: Vector to store the suffix array.
+    std::vector<int> suff_arr(n, 0);
 
-    std::cout << result - input.size();
+    // Read the suffix array.
+    int val;
+    for (size_t i = 0; i < n; ++i) {
+        std::cin >> val;
+        suff_arr[i] = val - 1;  // Adjust for 0-based indexing.
+    }
 
-    return 0;
+    // Call the LCP calculation function.
+    lcp(n, suff_arr, text);
 }
