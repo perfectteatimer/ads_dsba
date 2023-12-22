@@ -2,7 +2,8 @@
 
 int countSafeStacks(int n)
 {
-    std::pair<int, int> last = {1, 1}; //  for n = 1
+    if (n == 1) return 2;
+    std::pair<int, int> last = {1, 1};
     std::pair<int, int> current;
     for (int i = 2; i <= n; ++i)
     {

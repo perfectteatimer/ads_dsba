@@ -2,26 +2,23 @@
 #include <vector>
 #include <algorithm>
 
-int cheap(std::vector<int>& v)
+int cheap(const std::vector<int>& v)
 {
-    if (v.size() < 2) return v.empty() ? 0 : v[0];
-
-    for (int i = v.size() - 3; i >= 0; --i)
-        v[i] += std::min(v[i + 1], v[i + 2]);
-
-    return std::min(v[0], v[1]);
+    int n = v.size();
+    if (n == 1) return v[0];
+    std::vector<int> ans;
+    ans.push_back(v[0]), ans.push_back(v[1]);
+    for (int i = 2; i < n; ++i)
+        ans.push_back(std::min(ans[i - 1], ans[i - 2]) + v[i]);
+    return ans[n - 1];
 }
 
 int main()
 {
-    int numbOfStairs, val;
+    int numbOfStairs;
     std::cin >> numbOfStairs;
-    std::vector<int> pricesOfStairs;
-    std::reverse(pricesOfStairs.begin(), pricesOfStairs.end());
+    std::vector<int> pricesOfStairs(numbOfStairs);
     for (int i = 0; i < numbOfStairs; ++i)
-    {
-        std::cin >> val;
-        pricesOfStairs.push_back(val);
-    }
+        std::cin >> pricesOfStairs[i];
     std::cout << cheap(pricesOfStairs);
 }

@@ -11,24 +11,14 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="algorithmsDSBA_" targetName="binarytrees" />
-      <config projectName="algorithmsDSBA_" targetName="contest1k" />
       <config projectName="algorithmsDSBA_" targetName="seminar9" />
       <config projectName="algorithmsDSBA_" targetName="seminar8" />
       <config projectName="algorithmsDSBA_" targetName="seminar2" />
       <config projectName="algorithmsDSBA_" targetName="seminar1" />
-      <config projectName="algorithmsDSBA_" targetName="seminar15_2" />
       <config projectName="algorithmsDSBA_" targetName="contest4a" />
-      <config projectName="algorithmsDSBA_" targetName="seminar15_1" />
       <config projectName="algorithmsDSBA_" targetName="contest4b" />
-      <config projectName="algorithmsDSBA_" targetName="contest2a" />
-      <config projectName="algorithmsDSBA_" targetName="contest2b" />
-      <config projectName="algorithmsDSBA_" targetName="algorithmsDSBA_" />
-      <config projectName="algorithmsDSBA_" targetName="contest2g" />
-      <config projectName="algorithmsDSBA_" targetName="contest2c" />
-      <config projectName="algorithmsDSBA_" targetName="seminar11_2" />
-      <config projectName="algorithmsDSBA_" targetName="contest2d" />
-      <config projectName="algorithmsDSBA_" targetName="seminar11_1" />
+      <config projectName="algorithmsDSBA_" targetName="contest4c" />
+      <config projectName="algorithmsDSBA_" targetName="contest4d" />
       <config projectName="algorithmsDSBA_" targetName="seminar10" />
       <config projectName="algorithmsDSBA_" targetName="seminar6_7_3" />
       <config projectName="algorithmsDSBA_" targetName="seminar13" />
@@ -38,24 +28,36 @@
       <config projectName="algorithmsDSBA_" targetName="seminar12" />
       <config projectName="algorithmsDSBA_" targetName="contest3a" />
       <config projectName="algorithmsDSBA_" targetName="contest3b" />
-      <config projectName="algorithmsDSBA_" targetName="contest1a" />
       <config projectName="algorithmsDSBA_" targetName="contest3c" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_2" />
-      <config projectName="algorithmsDSBA_" targetName="contest1f" />
-      <config projectName="algorithmsDSBA_" targetName="seminar5_2" />
       <config projectName="algorithmsDSBA_" targetName="contest3h" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_1" />
       <config projectName="algorithmsDSBA_" targetName="contest3i" />
-      <config projectName="algorithmsDSBA_" targetName="contest1h" />
       <config projectName="algorithmsDSBA_" targetName="contest3j" />
       <config projectName="algorithmsDSBA_" targetName="seminar3_4_3" />
+      <config projectName="algorithmsDSBA_" targetName="contest3d" />
+      <config projectName="algorithmsDSBA_" targetName="contest3e" />
+      <config projectName="algorithmsDSBA_" targetName="contest3g" />
+      <config projectName="algorithmsDSBA_" targetName="binarytrees" />
+      <config projectName="algorithmsDSBA_" targetName="contest1k" />
+      <config projectName="algorithmsDSBA_" targetName="seminar15_2" />
+      <config projectName="algorithmsDSBA_" targetName="seminar15_1" />
+      <config projectName="algorithmsDSBA_" targetName="contest2a" />
+      <config projectName="algorithmsDSBA_" targetName="contest2b" />
+      <config projectName="algorithmsDSBA_" targetName="algorithmsDSBA_" />
+      <config projectName="algorithmsDSBA_" targetName="contest2g" />
+      <config projectName="algorithmsDSBA_" targetName="contest2c" />
+      <config projectName="algorithmsDSBA_" targetName="seminar11_2" />
+      <config projectName="algorithmsDSBA_" targetName="contest2d" />
+      <config projectName="algorithmsDSBA_" targetName="seminar11_1" />
+      <config projectName="algorithmsDSBA_" targetName="contest1a" />
+      <config projectName="algorithmsDSBA_" targetName="contest1f" />
+      <config projectName="algorithmsDSBA_" targetName="seminar5_2" />
+      <config projectName="algorithmsDSBA_" targetName="contest1h" />
       <config projectName="algorithmsDSBA_" targetName="seminar5_1" />
       <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="contest1b" />
-      <config projectName="algorithmsDSBA_" targetName="contest3d" />
-      <config projectName="algorithmsDSBA_" targetName="contest3e" />
       <config projectName="algorithmsDSBA_" targetName="contest1e" />
-      <config projectName="algorithmsDSBA_" targetName="contest3g" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -64,10 +66,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 3">
-      <change afterPath="$PROJECT_DIR$/contests/contest4/task4B.cpp" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 4">
+      <change afterPath="$PROJECT_DIR$/contests/contest4/task4C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest4/task4D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest4/task4E.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest4/task4F.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest4/task4B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest4/task4B.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,14 +158,14 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest4b">
+  <component name="RunManager" selected="Python.task4E">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
@@ -286,6 +292,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="contest4c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest4d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="seminar1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -386,6 +402,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task4E" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithmsDSBA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/contests/contest4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contests/contest4/task4E.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="CMake Application.algorithmsDSBA_" />
       <item itemvalue="CMake Application.binarytrees" />
@@ -412,6 +449,8 @@
       <item itemvalue="CMake Application.contest3j" />
       <item itemvalue="CMake Application.contest4a" />
       <item itemvalue="CMake Application.contest4b" />
+      <item itemvalue="CMake Application.contest4c" />
+      <item itemvalue="CMake Application.contest4d" />
       <item itemvalue="CMake Application.seminar1" />
       <item itemvalue="CMake Application.seminar10" />
       <item itemvalue="CMake Application.seminar11_1" />
@@ -433,9 +472,11 @@
       <item itemvalue="CMake Application.seminar8" />
       <item itemvalue="CMake Application.seminar9" />
       <item itemvalue="CMake Debug.algorithmsDSBA_" />
+      <item itemvalue="Python.task4E" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task4E" />
         <item itemvalue="CMake Debug.algorithmsDSBA_" />
       </list>
     </recent_temporary>
@@ -484,7 +525,11 @@
       <workItem from="1702500287265" duration="681000" />
       <workItem from="1702755326666" duration="46000" />
       <workItem from="1702763227729" duration="47000" />
-      <workItem from="1703118946500" duration="1428000" />
+      <workItem from="1703118946500" duration="1753000" />
+      <workItem from="1703152373601" duration="48000" />
+      <workItem from="1703168597671" duration="279000" />
+      <workItem from="1703168890038" duration="11000" />
+      <workItem from="1703259086706" duration="3904000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -605,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702492703074</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="contest 4">
+      <created>1703120690475</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703120690475</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,6 +680,7 @@
     <MESSAGE value="seminar tasks" />
     <MESSAGE value="pdf knapsack" />
     <MESSAGE value="contest 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 3" />
+    <MESSAGE value="contest 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="contest 4" />
   </component>
 </project>
