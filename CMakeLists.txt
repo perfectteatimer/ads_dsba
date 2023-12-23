@@ -30,6 +30,7 @@ add_executable(contest4a contests/contest4/task4A.cpp)
 add_executable(contest4b contests/contest4/task4b.cpp)
 add_executable(contest4c contests/contest4/task4c.cpp)
 add_executable(contest4d contests/contest4/task4D.cpp)
+add_executable(contest4j contests/contest4/task4J.cpp)
 
 # seminars
 add_executable(binarytrees seminars/Module1/BSTrees/exercises.cpp)
