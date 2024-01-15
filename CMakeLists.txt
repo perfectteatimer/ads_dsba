@@ -54,3 +54,4 @@ add_executable(seminar13 seminars/Module2/seminar05-06-Nov-24-BoyerMoore-Exercis
 add_executable(seminar14 seminars/Module2/seminar07-Nov-27-Test/test/main.cpp)
 add_executable(seminar15_1 seminars/Module2/seminar09-10-Dec-04-DynProg/knapsack.cpp)
 add_executable(seminar15_2 seminars/Module2/seminar09-10-Dec-04-DynProg/min_coins.cpp)
+add_executable(seminar16_1 seminars/Module3/huffman/huffman.cpp)

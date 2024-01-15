@@ -1,0 +1,16 @@
+Index: contests/contest4/task4J.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <iostream>\r\n#include <vector>\r\n#include <climits>\r\n\r\nint main()\r\n{\r\n    int len;\r\n    std::cin >> len;\r\n    std::vector<int> val(len);\r\n    for (int i = 0; i < len; ++i)\r\n    {\r\n        std::cin >> val[i];\r\n    }\r\n    int sum = 0;\r\n    int maxSum = INT_MIN;\r\n    int maxStart = 0, maxEnd = 0, tempStart = 0;\r\n    for (int i = 0; i < len; i++)\r\n    {\r\n        sum += val[i];\r\n        if (sum > maxSum)\r\n        {\r\n            maxSum = sum;\r\n            maxStart = tempStart;\r\n            maxEnd = i;\r\n        }\r\n        if (sum < 0)\r\n        {\r\n            sum = 0;\r\n            tempStart = i + 1;\r\n        }\r\n    }\r\n    std::cout << maxStart + 1 << \" \" << maxEnd + 1 << \" \" << maxSum;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/contests/contest4/task4J.cpp b/contests/contest4/task4J.cpp
+--- a/contests/contest4/task4J.cpp	
++++ b/contests/contest4/task4J.cpp	
+@@ -31,3 +31,5 @@
+     }
+     std::cout << maxStart + 1 << " " << maxEnd + 1 << " " << maxSum;
+ }
++
++
