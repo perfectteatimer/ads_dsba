@@ -20,6 +20,7 @@
       <config projectName="algorithmsDSBA_" targetName="contest4b" />
       <config projectName="algorithmsDSBA_" targetName="contest4c" />
       <config projectName="algorithmsDSBA_" targetName="contest4d" />
+      <config projectName="algorithmsDSBA_" targetName="seminar16_2" />
       <config projectName="algorithmsDSBA_" targetName="contest4j" />
       <config projectName="algorithmsDSBA_" targetName="seminar10" />
       <config projectName="algorithmsDSBA_" targetName="seminar6_7_3" />
@@ -68,10 +69,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="contest 4">
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="sem1module3">
+      <change afterPath="$PROJECT_DIR$/seminars/Module3/greedyalgorithm/task1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contests/contest4/task4J.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest4/task4J.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.seminar16_1">
+  <component name="RunManager" selected="CMake Application.seminar16_2">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -356,6 +357,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminar16_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar16_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar16_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="seminar2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -492,6 +498,7 @@
       <item itemvalue="CMake Application.seminar15_1" />
       <item itemvalue="CMake Application.seminar15_2" />
       <item itemvalue="CMake Application.seminar16_1" />
+      <item itemvalue="CMake Application.seminar16_2" />
       <item itemvalue="CMake Application.seminar2" />
       <item itemvalue="CMake Application.seminar3_4_1" />
       <item itemvalue="CMake Application.seminar3_4_2" />
@@ -567,7 +574,10 @@
       <workItem from="1705094588053" duration="329000" />
       <workItem from="1705240240269" duration="1000" />
       <workItem from="1705338759365" duration="5000" />
-      <workItem from="1705338787918" duration="4154000" />
+      <workItem from="1705338787918" duration="4431000" />
+      <workItem from="1705427872895" duration="259000" />
+      <workItem from="1705510198323" duration="5000" />
+      <workItem from="1705510220283" duration="3224000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -688,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702492703074</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="sem1module3">
+      <created>1705343975924</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705343975924</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,6 +728,7 @@
     <MESSAGE value="seminar tasks" />
     <MESSAGE value="pdf knapsack" />
     <MESSAGE value="contest 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="contest 3" />
+    <MESSAGE value="sem1module3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem1module3" />
   </component>
 </project>
