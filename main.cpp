@@ -1,60 +1,34 @@
 #include <vector>
 #include <iostream>
 
-void graphs(std::vector<std::vector<int>>& matrix1, std::vector<std::vector<int>>& matrix2, int n, int m)
+void countVisitedCells(std::vector<std::vector<int>>& room, int n, int m)
 {
-    for (size_t route  = 0; route < m; ++route)
+    char ch;
+    for (int i = 0; i < n; ++i)
     {
-        int k;
-        std::cin >> k;
-        std::vector<int> stops(k);
-        for (size_t i = 0; i < k; ++i)
-            std::cin >> stops[i];
-        // for first graph -- просто попарно
-        for (size_t i = 0; i < k - 1; ++i)
+        for (int j = 0; j < m; ++j)
         {
-            matrix1[stops[i] - 1][stops[i + 1] - 1] = 1;
-            matrix1[stops[i + 1] - 1][stops[i] - 1] = 1;
+            std::cin >> ch;
+            if (ch == '#')
+                room[i][j] = 1;
         }
+    }
+    int q, counter = 0;
+    std::cin >> q;
+    std::string str;
+    std::cin >> str;
+    for (size_t i = 0; i < q; ++i)
+    {
+        if (str[i] == )
+    }
 
-        // second graph -- идти вдоль всех остановок
-        for (size_t i = 0; i < k; ++i)
-        {
-            for (size_t j = i + 1; j < k; ++j)
-            {
-                matrix2[stops[i] - 1][stops[j] - 1] = 1;
-                matrix2[stops[j] - 1][stops[i] - 1] = 1;
-            }
-        }
-    }
-    for (size_t i = 0; i < n; ++i)
-    {
-        for (size_t j = 0; j < n; ++j)
-            if (j != n - 1)
-                std::cout<< matrix1[i][j] << " ";
-            else
-                std::cout<< matrix1[i][j];
-        std::cout<< '\n';
-    }
-    for (size_t i = 0; i < n; ++i)
-    {
-        for (size_t j = 0; j < n; ++j)
-        {
-            if (j != n - 1)
-                std::cout<< matrix2[i][j] << " ";
-            else
-                std::cout<< matrix2[i][j];
-        }
-        std::cout<< '\n';
-    }
 }
 
 int main()
 {
-   int n, m;
-   std::cin >> n >> m;
-   std::vector<std::vector<int>> matrix1(n, std::vector<int>(n, 0));
-   std::vector<std::vector<int>> matrix2(n, std::vector<int>(n, 0));
-   graphs(matrix1, matrix2, n, m);
+    int n, m;
+    std::cin >> n >> m;
+    std::vector<std::vector<int>> room(n, std::vector<int>(m, 0));
+    countVisitedCells(room, n, m);
 }
 

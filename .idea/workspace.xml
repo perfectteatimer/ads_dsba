@@ -69,7 +69,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="check">
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="sem2module3">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_13_2024_12_29_AM_[Changes]1/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -160,259 +161,258 @@
     <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
-    <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
+    <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binarytrees" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="binarytrees" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="binarytrees">
+    <configuration name="binarytrees" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="binarytrees" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="binarytrees">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest1a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1a">
+    <configuration name="contest1a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1a">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest1b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1b">
+    <configuration name="contest1b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1b">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest1e" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1e" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1e">
+    <configuration name="contest1e" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1e" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1e">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest1f" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1f" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1f">
+    <configuration name="contest1f" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1f" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1f">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest1h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1h">
+    <configuration name="contest1h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1h">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest1i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1i">
+    <configuration name="contest1i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1i">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest1k" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1k" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1k">
+    <configuration name="contest1k" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest1k" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest1k">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest2a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2a">
+    <configuration name="contest2a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2a">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest2b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2b">
+    <configuration name="contest2b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2b">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest2c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2c">
+    <configuration name="contest2c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2c">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest2d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2d">
+    <configuration name="contest2d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest2g" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2g" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2g">
+    <configuration name="contest2g" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest2g" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest2g">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3a">
+    <configuration name="contest3a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3a">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3b">
+    <configuration name="contest3b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3b">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3c">
+    <configuration name="contest3c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3c">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3d">
+    <configuration name="contest3d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3e" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3e" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3e">
+    <configuration name="contest3e" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3e" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3e">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3g" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3g" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3g">
+    <configuration name="contest3g" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3g" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3g">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3h">
+    <configuration name="contest3h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3h">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3i">
+    <configuration name="contest3i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3i">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest3j" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3j" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3j">
+    <configuration name="contest3j" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest3j" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest3j">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest4a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4a">
+    <configuration name="contest4a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4a">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest4b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4b">
+    <configuration name="contest4b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4b">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest4c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4c">
+    <configuration name="contest4c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4c">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest4d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4d">
+    <configuration name="contest4d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contest4j" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4j" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4j">
+    <configuration name="contest4j" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4j" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4j">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar1">
+    <configuration name="seminar1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar10">
+    <configuration name="seminar10" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar10">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar11_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar11_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar11_1">
+    <configuration name="seminar11_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar11_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar11_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar11_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar11_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar11_2">
+    <configuration name="seminar11_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar11_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar11_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar12" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar12">
+    <configuration name="seminar12" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar12" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar12">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar13" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar13">
+    <configuration name="seminar13" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar13" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar13">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar14" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar14">
+    <configuration name="seminar14" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar14" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar14">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar15_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar15_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar15_1">
+    <configuration name="seminar15_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar15_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar15_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar15_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar15_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar15_2">
+    <configuration name="seminar15_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar15_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar15_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar16_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar16_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar16_1">
+    <configuration name="seminar16_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar16_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar16_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar16_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar16_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar16_2">
+    <configuration name="seminar16_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar16_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar16_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar2">
+    <configuration name="seminar2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar3_4_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar3_4_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar3_4_1">
+    <configuration name="seminar3_4_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar3_4_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar3_4_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar3_4_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar3_4_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar3_4_2">
+    <configuration name="seminar3_4_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar3_4_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar3_4_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar3_4_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar3_4_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar3_4_3">
+    <configuration name="seminar3_4_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar3_4_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar3_4_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar5_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar5_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar5_1">
+    <configuration name="seminar5_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar5_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar5_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar5_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar5_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar5_2">
+    <configuration name="seminar5_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar5_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar5_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar6_7_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_1">
+    <configuration name="seminar6_7_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar6_7_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_2">
+    <configuration name="seminar6_7_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar6_7_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_3">
+    <configuration name="seminar6_7_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar6_7_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar6_7_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar8">
+    <configuration name="seminar8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar8">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar9">
+    <configuration name="seminar9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar9">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="task4G" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithmsDSBA" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -434,7 +434,6 @@
     </configuration>
     <configuration name="task4J" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithmsDSBA" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -574,6 +573,7 @@
       <workItem from="1705510198323" duration="5000" />
       <workItem from="1705510220283" duration="3224000" />
       <workItem from="1705576753860" duration="4845000" />
+      <workItem from="1705841586950" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
