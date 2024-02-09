@@ -53,13 +53,19 @@
       <config projectName="algorithmsDSBA_" targetName="seminar11_2" />
       <config projectName="algorithmsDSBA_" targetName="contest2d" />
       <config projectName="algorithmsDSBA_" targetName="seminar11_1" />
+      <config projectName="algorithmsDSBA_" targetName="contest5b" />
+      <config projectName="algorithmsDSBA_" targetName="contest5c" />
+      <config projectName="algorithmsDSBA_" targetName="contest5d" />
       <config projectName="algorithmsDSBA_" targetName="contest1a" />
+      <config projectName="algorithmsDSBA_" targetName="contest5e" />
+      <config projectName="algorithmsDSBA_" targetName="contest5a" />
       <config projectName="algorithmsDSBA_" targetName="contest1f" />
       <config projectName="algorithmsDSBA_" targetName="seminar5_2" />
       <config projectName="algorithmsDSBA_" targetName="contest1h" />
       <config projectName="algorithmsDSBA_" targetName="seminar5_1" />
       <config projectName="algorithmsDSBA_" targetName="contest1i" />
       <config projectName="algorithmsDSBA_" targetName="contest1b" />
+      <config projectName="algorithmsDSBA_" targetName="contest5f" />
       <config projectName="algorithmsDSBA_" targetName="contest1e" />
     </generated>
   </component>
@@ -69,9 +75,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="sem2module3">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_13_2024_12_29_AM_[Changes]1/shelved.patch" beforeDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="graph">
+      <change afterPath="$PROJECT_DIR$/contests/contest5/task5A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest5/task5B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest5/task5C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest5/task5D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest5/task5E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest5/task5F.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +169,12 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.algorithmsDSBA_">
+  <component name="RunManager" selected="CMake Application.contest5b">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -297,6 +314,36 @@
       </method>
     </configuration>
     <configuration name="contest4j" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest4j" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest4j">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest5a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest5a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest5a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest5b" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest5b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest5b">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest5c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest5c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest5c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest5d" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest5d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest5d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest5e" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest5e" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest5e">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest5f" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest5f" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest5f">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -482,6 +529,12 @@
       <item itemvalue="CMake Application.contest4c" />
       <item itemvalue="CMake Application.contest4d" />
       <item itemvalue="CMake Application.contest4j" />
+      <item itemvalue="CMake Application.contest5a" />
+      <item itemvalue="CMake Application.contest5b" />
+      <item itemvalue="CMake Application.contest5c" />
+      <item itemvalue="CMake Application.contest5d" />
+      <item itemvalue="CMake Application.contest5e" />
+      <item itemvalue="CMake Application.contest5f" />
       <item itemvalue="CMake Application.seminar1" />
       <item itemvalue="CMake Application.seminar10" />
       <item itemvalue="CMake Application.seminar11_1" />
@@ -573,7 +626,10 @@
       <workItem from="1705510198323" duration="5000" />
       <workItem from="1705510220283" duration="3224000" />
       <workItem from="1705576753860" duration="4845000" />
-      <workItem from="1705841586950" duration="1000" />
+      <workItem from="1705841586950" duration="121000" />
+      <workItem from="1706468205707" duration="56000" />
+      <workItem from="1706469189992" duration="257000" />
+      <workItem from="1707504368864" duration="5947000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -701,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705343975924</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="graph">
+      <created>1705841700287</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705841700287</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,6 +788,7 @@
     <MESSAGE value="pdf knapsack" />
     <MESSAGE value="contest 3" />
     <MESSAGE value="sem1module3" />
-    <option name="LAST_COMMIT_MESSAGE" value="sem1module3" />
+    <MESSAGE value="graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph" />
   </component>
 </project>
