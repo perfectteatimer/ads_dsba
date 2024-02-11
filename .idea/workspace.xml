@@ -76,15 +76,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="graph">
-      <change afterPath="$PROJECT_DIR$/contests/contest5/task5A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest5/task5B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest5/task5C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest5/task5D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest5/task5E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest5/task5F.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest5/task5C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest5/task5C.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest5/task5D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest5/task5D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contests/contest5/task5F.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest5/task5F.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,12 +164,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest5b">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.contest5f">
     <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -629,7 +619,10 @@
       <workItem from="1705841586950" duration="121000" />
       <workItem from="1706468205707" duration="56000" />
       <workItem from="1706469189992" duration="257000" />
-      <workItem from="1707504368864" duration="5947000" />
+      <workItem from="1707504368864" duration="6119000" />
+      <workItem from="1707571125715" duration="35000" />
+      <workItem from="1707571179987" duration="17000" />
+      <workItem from="1707676647606" duration="5144000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -764,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705841700287</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="graph">
+      <created>1707516050384</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707516050384</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
