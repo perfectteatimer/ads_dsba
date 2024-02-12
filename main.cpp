@@ -1,9 +1,11 @@
 #include <vector>
 #include <iostream>
 
+
 int main()
 {
-    int x, y;
-    std::cin >> x >> y;
-    std::cout<<((x == (y + 3)) ? 0 : 1);
+    int n, m;
+    std::cin>>n>>m;
+    std::cout<<((n == (m + 3)) ? 0 : 1);
 }
+
