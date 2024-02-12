@@ -63,3 +63,4 @@ add_executable(seminar15_1 seminars/Module2/seminar09-10-Dec-04-DynProg/knapsack
 add_executable(seminar15_2 seminars/Module2/seminar09-10-Dec-04-DynProg/min_coins.cpp)
 add_executable(seminar16_1 seminars/Module3/huffman/huffman.cpp)
 add_executable(seminar16_2 seminars/Module3/greedyalgorithm/task1.cpp)
+add_executable(new_target main2.c)
