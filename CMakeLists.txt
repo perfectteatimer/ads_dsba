@@ -3,7 +3,8 @@ project(algorithmsDSBA_)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(algorithmsDSBA_ main.cpp)
+add_executable(algorithmsDSBA_ main.cpp
+        "definers .h")
 # hw
 add_executable(contest1a contests/contest1/task1A.cpp)
 add_executable(contest1b contests/contest1/task1B.cpp)
