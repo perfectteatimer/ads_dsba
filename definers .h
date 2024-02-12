@@ -7,6 +7,7 @@
 
 #endif //ALGORITHMSDSBA__DEFINERS_H
 #define pb push_back
+
 #define input std::cin >>
 #define output std::cout <<
 #define endl std::endl
