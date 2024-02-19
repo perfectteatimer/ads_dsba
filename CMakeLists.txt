@@ -38,6 +38,7 @@ add_executable(contest5c contests/contest5/task5C.cpp)
 add_executable(contest5d contests/contest5/task5D.cpp)
 add_executable(contest5e contests/contest5/task5E.cpp)
 add_executable(contest5f contests/contest5/task5F.cpp)
+add_executable(contest6a contests/contest6/task6A.cpp)
 
 
 # seminars
