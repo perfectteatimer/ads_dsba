@@ -45,6 +45,7 @@
       <config projectName="algorithmsDSBA_" targetName="binarytrees" />
       <config projectName="algorithmsDSBA_" targetName="contest1k" />
       <config projectName="algorithmsDSBA_" targetName="seminar15_2" />
+      <config projectName="algorithmsDSBA_" targetName="contest6c" />
       <config projectName="algorithmsDSBA_" targetName="seminar15_1" />
       <config projectName="algorithmsDSBA_" targetName="contest2a" />
       <config projectName="algorithmsDSBA_" targetName="contest2b" />
@@ -58,6 +59,7 @@
       <config projectName="algorithmsDSBA_" targetName="contest5b" />
       <config projectName="algorithmsDSBA_" targetName="contest5c" />
       <config projectName="algorithmsDSBA_" targetName="contest5d" />
+      <config projectName="algorithmsDSBA_" targetName="contest6E" />
       <config projectName="algorithmsDSBA_" targetName="contest1a" />
       <config projectName="algorithmsDSBA_" targetName="contest5e" />
       <config projectName="algorithmsDSBA_" targetName="contest5a" />
@@ -77,8 +79,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="main">
-      <change afterPath="$PROJECT_DIR$/contests/contest6/task6A.cpp" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="cont6 task a">
+      <change afterPath="$PROJECT_DIR$/contests/contest6/task6C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contests/contest6/task6E.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -165,7 +168,7 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest6a">
+  <component name="RunManager" selected="CMake Application.contest6E">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -344,7 +347,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="contest6E" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest6E" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest6E">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="contest6a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest6a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest6a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest6c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest6c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest6c">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -542,6 +555,8 @@
       <item itemvalue="CMake Application.contest5e" />
       <item itemvalue="CMake Application.contest5f" />
       <item itemvalue="CMake Application.contest6a" />
+      <item itemvalue="CMake Application.contest6c" />
+      <item itemvalue="CMake Application.contest6E" />
       <item itemvalue="CMake Application.new_target" />
       <item itemvalue="CMake Application.seminar10" />
       <item itemvalue="CMake Application.seminar11_1" />
@@ -571,9 +586,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="CMake Debug.algorithmsDSBA_" />
         <item itemvalue="Python.task4J" />
         <item itemvalue="Python.task4G" />
-        <item itemvalue="CMake Debug.algorithmsDSBA_" />
       </list>
     </recent_temporary>
   </component>
@@ -645,7 +660,9 @@
       <workItem from="1707765457157" duration="612000" />
       <workItem from="1708164903322" duration="2000" />
       <workItem from="1708281104724" duration="7000" />
-      <workItem from="1708374973203" duration="3030000" />
+      <workItem from="1708374973203" duration="3236000" />
+      <workItem from="1708456280522" duration="587000" />
+      <workItem from="1708458135711" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -795,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707751474189</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="cont6 task a">
+      <created>1708378461602</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708378461602</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -821,6 +845,7 @@
     <MESSAGE value="sem1module3" />
     <MESSAGE value="graph" />
     <MESSAGE value="main" />
-    <option name="LAST_COMMIT_MESSAGE" value="main" />
+    <MESSAGE value="cont6 task a" />
+    <option name="LAST_COMMIT_MESSAGE" value="cont6 task a" />
   </component>
 </project>
