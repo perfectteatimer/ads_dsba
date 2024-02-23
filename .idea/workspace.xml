@@ -58,6 +58,7 @@
       <config projectName="algorithmsDSBA_" targetName="contest6g" />
       <config projectName="algorithmsDSBA_" targetName="contest2d" />
       <config projectName="algorithmsDSBA_" targetName="seminar11_1" />
+      <config projectName="algorithmsDSBA_" targetName="contest6i" />
       <config projectName="algorithmsDSBA_" targetName="contest5b" />
       <config projectName="algorithmsDSBA_" targetName="contest5c" />
       <config projectName="algorithmsDSBA_" targetName="contest5d" />
@@ -81,9 +82,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="cont6 task с e">
-      <change afterPath="$PROJECT_DIR$/contests/contest6/task6F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contests/contest6/task6G.cpp" afterDir="false" />
+    <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="cont6 task f g">
+      <change afterPath="$PROJECT_DIR$/contests/contest6/task6I.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -170,14 +170,14 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.contest6f">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.contest6i">
     <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="algorithmsDSBA_" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="algorithmsDSBA_">
       <method v="2">
@@ -370,6 +370,11 @@
       </method>
     </configuration>
     <configuration name="contest6g" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest6g" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest6g">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="contest6i" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="contest6i" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="contest6i">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -571,6 +576,7 @@
       <item itemvalue="CMake Application.contest6E" />
       <item itemvalue="CMake Application.contest6f" />
       <item itemvalue="CMake Application.contest6g" />
+      <item itemvalue="CMake Application.contest6i" />
       <item itemvalue="CMake Application.new_target" />
       <item itemvalue="CMake Application.seminar10" />
       <item itemvalue="CMake Application.seminar11_1" />
@@ -678,7 +684,8 @@
       <workItem from="1708456280522" duration="587000" />
       <workItem from="1708458135711" duration="4472000" />
       <workItem from="1708637752905" duration="589000" />
-      <workItem from="1708640816270" duration="1790000" />
+      <workItem from="1708640816270" duration="1871000" />
+      <workItem from="1708729981413" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -842,7 +849,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708463484568</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="cont6 task f g">
+      <created>1708642711834</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1708642711835</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,6 +884,7 @@
     <MESSAGE value="main" />
     <MESSAGE value="cont6 task a" />
     <MESSAGE value="cont6 task с e" />
-    <option name="LAST_COMMIT_MESSAGE" value="cont6 task с e" />
+    <MESSAGE value="cont6 task f g" />
+    <option name="LAST_COMMIT_MESSAGE" value="cont6 task f g" />
   </component>
 </project>
