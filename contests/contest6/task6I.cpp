@@ -1,40 +1,59 @@
 #include <iostream>
 #include <unordered_map>
 #include <vector>
-#include <climits>
+#include <algorithm>
 
 #define input std::cin >>
 #define output std::cout <<
-// e maxx
+// я все что можно нашел в интернете
 using Graph = std::unordered_map<int, std::unordered_map<int, int>>;
 
-void bellmanford(Graph& g, int n, int s)
+const int INF = 1e9 + 7;
+
+std::vector<int> dist;
+std::vector<bool> used;
+
+void bellmanFord(int s, int n, Graph& graph)
 {
-    std::vector<long long> dist(n, INT_MAX);
     dist[s] = 0;
-    for (int i = 0; i < n; ++i)
-        for (auto& u : g)
-            for (auto& v : u.second)
-                if (dist[u.first] < INT_MAX)
-                    dist[v.first] = std::min(dist[v.first], dist[u.first] + v.second);
-    std::vector<bool> inCycle(n, false);
-    for (int i = 0; i < n; ++i)
-        for (auto& u : g)
-            for (auto& v : u.second)
-                if (dist[u.first] < INT_MAX && dist[u.first] + v.second < dist[v.first])
-                    inCycle[v.first] = true;
-    for (int i = 0; i < n; ++i) // additional loop to detect negative cycles
-        for (auto& u : g)
-            for (auto& v : u.second)
-                if (!inCycle[u.first] && dist[u.first] < INT_MAX && dist[u.first] + v.second < dist[v.first])
-                    inCycle[v.first] = true;
-    for (int u = 0; u < n; ++u)
-        if (dist[u] == INT_MAX)
-            output "*\n";
-        else if (inCycle[u])
-            output "-\n";
+    for (int i = 0; i < n - 1; ++i)
+    {
+        for (int u = 0; u < n; ++u)
+        {
+            for (auto& edge: graph[u])
+            {
+                int v = edge.first;
+                long long w = edge.second;
+                // если текущее расстояние до вершины v больше, чем расстояние до u + вес ребра, обновляем его
+                if (dist[u] < INF && dist[v] > dist[u] + w)
+                    dist[v] = std::max(-INF, (int) (dist[u] + w));
+            }
+        }
+    }
+}
+// функция для обхода графа в глубину и отметки посещенных вершин
+void dfs(int v, Graph& graph)
+{
+    used[v] = true;
+    for (auto& edge: graph[v])
+    {
+        int to = edge.first;
+        if (!used[to])
+            dfs(to, graph);
+    }
+}
+
+void printres(int numbOfVertices)
+{
+    for (int i = 0; i < numbOfVertices; ++i)
+    {
+        if (dist[i] == INF)
+         std::cout << "*\n";
+        else if (used[i])
+         std::cout << "-\n";
         else
-            output dist[u] << "\n";
+         std::cout << dist[i] << "\n";
+    }
 }
 
 int main()
@@ -43,6 +62,8 @@ int main()
     input numbOfVertices >> numbOfEdges >> s;
     --s;
     Graph graph;
+    dist.resize(numbOfVertices, INF);
+    used.resize(numbOfVertices, false);
     for (int i = 0; i < numbOfEdges; ++i)
     {
         int u, v, w;
@@ -51,5 +72,18 @@ int main()
         --v;
         graph[u][v] = w;
     }
-    bellmanford(graph, numbOfVertices, s);
+    bellmanFord(s, numbOfVertices, graph);
+
+    // проверка на наличие циклов отрицательного веса
+    for (int u = 0; u < numbOfVertices; ++u)
+    {
+        for (auto& edge: graph[u])
+        {
+            int v = edge.first;
+            long long w = edge.second;
+            if (dist[u] < INF && dist[u] + w < dist[v])
+                if (!used[v]) dfs(v, graph);
+        }
+    }
+    printres(numbOfVertices);
 }
