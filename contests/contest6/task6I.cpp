@@ -5,10 +5,10 @@
 
 #define input std::cin >>
 #define output std::cout <<
-// я все что можно нашел в интернете
+
 using Graph = std::unordered_map<int, std::unordered_map<int, int>>;
 
-const int INF = 1e9 + 7;
+const long long INF = LLONG_MAX;
 
 std::vector<int> dist;
 std::vector<bool> used;
@@ -22,16 +22,15 @@ void bellmanFord(int s, int n, Graph& graph)
         {
             for (auto& edge: graph[u])
             {
-                int v = edge.first;
+                long long v = edge.first;
                 long long w = edge.second;
-                // если текущее расстояние до вершины v больше, чем расстояние до u + вес ребра, обновляем его
                 if (dist[u] < INF && dist[v] > dist[u] + w)
-                    dist[v] = std::max(-INF, (int) (dist[u] + w));
+                    dist[v] = std::max(-INF, dist[u] + w);
             }
         }
     }
 }
-// функция для обхода графа в глубину и отметки посещенных вершин
+
 void dfs(int v, Graph& graph)
 {
     used[v] = true;
@@ -45,14 +44,14 @@ void dfs(int v, Graph& graph)
 
 void printres(int numbOfVertices)
 {
-    for (int i = 0; i < numbOfVertices; ++i)
+    for (int i = 1; i <= numbOfVertices; ++i)
     {
         if (dist[i] == INF)
-         std::cout << "*\n";
+            std::cout << "*\n";
         else if (used[i])
-         std::cout << "-\n";
+            std::cout << "-\n";
         else
-         std::cout << dist[i] << "\n";
+            std::cout << dist[i] << "\n";
     }
 }
 
@@ -60,22 +59,18 @@ int main()
 {
     int numbOfVertices, numbOfEdges, s;
     input numbOfVertices >> numbOfEdges >> s;
-    --s;
     Graph graph;
-    dist.resize(numbOfVertices, INF);
-    used.resize(numbOfVertices, false);
+    dist.resize(numbOfVertices + 1, INF);
+    used.resize(numbOfVertices + 1, false);
     for (int i = 0; i < numbOfEdges; ++i)
     {
         int u, v, w;
         input u >> v >> w;
-        --u;
-        --v;
         graph[u][v] = w;
     }
     bellmanFord(s, numbOfVertices, graph);
 
-    // проверка на наличие циклов отрицательного веса
-    for (int u = 0; u < numbOfVertices; ++u)
+    for (int u = 1; u <= numbOfVertices; ++u)
     {
         for (auto& edge: graph[u])
         {
