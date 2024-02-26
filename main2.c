@@ -3,39 +3,36 @@
 
 int main()
 {
-    int n, number;
-    scanf("%d", &n);
-
-    // Since we can't use vector, we'll have to allocate an array dynamically.
-    // Assuming the worst case where all numbers are even, we allocate space for n integers.
-    int *arr = (int *) malloc(n * sizeof(int));
-    if (arr == NULL)
-    {
-        // Handle memory allocation failure
-        fprintf(stderr, "Memory allocation failed\n");
-        return 1;
+    int A, B, n; // Inputs
+    scanf("%d %d %d", &A, &B, &n);
+    long long scale = 1;
+    for (int i = 0; i < n; i++) {
+        scale *= 10; // Compute 10^n
     }
 
-    int count = 0; // To keep track of how many even numbers are inserted
+    // Step 1 and 3: Scale A and add half of B for rounding
+    long long scaledA = A * scale + B / 2;
 
-    for (int i = 0; i < n; ++i)
-    {
-        scanf("%d", &number);
-        if (number % 2 == 0)
-        {
-            arr[count] = number;
-            count++;
+    // Step 2: Divide by B
+    long long result = scaledA / B;
+
+    // Divide result into integer and decimal parts
+    long long integerPart = result / scale;
+    long long decimalPart = result % scale;
+
+    // Output the integer part
+    printf("%lld", integerPart);
+
+    // Output the decimal part with 'n' digits
+    if (n > 0) {
+        printf(".");
+        long long leadingZerosScale = scale / 10;
+        while (leadingZerosScale > 0 && (decimalPart / leadingZerosScale) == 0) {
+            printf("0");
+            leadingZerosScale /= 10;
         }
+        printf("%lld", decimalPart);
     }
-
-    // Print the even numbers in reverse order
-    for (int i = count - 1; i >= 0; --i)
-    {
-        printf("%d\n", arr[i]);
-    }
-
-    // Free the allocated memory
-    free(arr);
 
     return 0;
 }
