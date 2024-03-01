@@ -1,86 +1,30 @@
 #include <iostream>
 #include <vector>
-#include <cstring>
+#include <algorithm>
 
-using namespace std;
-
-long long INF = (long long) 1e20;
-
-int n, m, s;
-
-struct Edge {
-    int u, v;
-    long long w;
-
-    Edge(int u, int v, long long w) : u(u), v(v), w(w) {}
-};
-
-vector<Edge> edges;
-vector<vector<int> > graph;
-vector<int> used;
-vector<long long> dist;
-
-void findShortestWays() {
-    dist[s] = 0;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < edges.size(); ++j) {
-            int u = edges[j].u;
-            int v = edges[j].v;
-            long long w = edges[j].w;
-            if ((dist[u] < INF) && (dist[v] > dist[u] + w)) {
-                dist[v] = max(-INF, dist[u] + w);
-            }
-        }
-    }
-}
-
-void dfs(int v) {
-    used[v] = 1;
-    for (int i = 0; i < graph[v].size(); ++i) {
-        int to = graph[v][i];
-        if (!used[to])
-            dfs(to);
-    }
-}
-
-int main() {
-    cin >> n >> m >> s;
-    s--;
-
-    dist.assign(n, INF);
-    graph.resize(n);
-    used.resize(n);
-
-    for (int i = 0; i < m; ++i) {
-        int u, v;
-        long long w;
-        cin >> u >> v >> w;
-        u--;
-        v--;
-        graph[u].push_back(v);
-        edges.push_back(Edge(u, v, w));
+int main()
+{
+    long long n;
+    std::cin >> n;
+    std::vector<long long> a(n);
+    long long max_spaces = 0;
+    for (long long& ai: a) {
+        std::cin >> ai;
+        max_spaces = std::max(max_spaces, ai);
     }
 
-    findShortestWays();
-    used.assign(n, 0);
-
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < edges.size(); ++j) {
-            int u = edges[j].u;
-            int v = edges[j].v;
-            long long w = edges[j].w;
-            if ((dist[u] < INF) && (dist[v] > dist[u] + w) && !used[v]) {
-                dfs(v);
-            }
-        }
+    const long long MAX_SPACES = 4294967295;
+    std::vector<long long> dp(max_spaces + 5, MAX_SPACES);
+    dp[0] = 0;
+    for (long long i = 1; i <= max_spaces; ++i)
+    {
+        dp[i] = std::min(dp[i], dp[i - 1] + 1);
+        if (i >= 4) dp[i] = std::min(dp[i], dp[i - 4] + 1);
+        if (i > 0) dp[i + 1] = std::min(dp[i + 1], dp[i] + 1);
     }
 
+    long long totalKeyPresses = 0;
+    for (long long ai: a) totalKeyPresses += dp[ai];
 
-    for (int i = 0; i < n; ++i) {
-        if (dist[i] == INF) cout << "*\n";
-        else if (used[i]) cout << "-\n";
-        else cout << dist[i] << "\n";
-    }
-
-    return 0;
+    std::cout << totalKeyPresses;
 }
