@@ -44,6 +44,7 @@
       <config projectName="algorithmsDSBA_" targetName="contest3g" />
       <config projectName="algorithmsDSBA_" targetName="binarytrees" />
       <config projectName="algorithmsDSBA_" targetName="contest1k" />
+      <config projectName="algorithmsDSBA_" targetName="new_target2" />
       <config projectName="algorithmsDSBA_" targetName="seminar15_2" />
       <config projectName="algorithmsDSBA_" targetName="contest6c" />
       <config projectName="algorithmsDSBA_" targetName="seminar15_1" />
@@ -86,9 +87,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd0ce463-896d-4566-985c-4ba55c7d2a69" name="Changes" comment="cont6 task">
+      <change afterPath="$PROJECT_DIR$/seminars/quiz/seminarquiz.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contests/contest5/task5A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/contests/contest5/task5A.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,34 +142,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake Application.algorithmsDSBA_.executor": "Run",
-    "CMake Application.contest3c.executor": "Run",
-    "CMake Application.contest3i.executor": "Run",
-    "CMake Application.contest6a.executor": "Run",
-    "CMake Application.contest6d.executor": "Run",
-    "CMake Application.contest6h.executor": "Run",
-    "CMake Application.contest6i.executor": "Run",
-    "CMake Application.new_target.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/1/CLionProjects/algorithmsDSBA_/seminars/Module2/seminar09-10-Dec-04-DynProg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.algorithmsDSBA_.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.contest3c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.contest3i.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.contest6a.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.contest6d.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.contest6h.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.contest6i.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.new_target.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/CLionProjects/algorithmsDSBA_/seminars/Module2/seminar09-10-Dec-04-DynProg&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA_\seminars\Module2\seminar09-10-Dec-04-DynProg" />
@@ -179,7 +180,12 @@
       <recent name="C:\Users\1\CLionProjects\algorithmsDSBA" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.algorithmsDSBA_">
+  <component name="RunManager" selected="CMake Application.new_target2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithmsDSBA_" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -403,6 +409,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="new_target2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="new_target2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="new_target2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="seminar1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithmsDSBA_" TARGET_NAME="seminar1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithmsDSBA_" RUN_TARGET_NAME="seminar1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -600,6 +611,7 @@
       <item itemvalue="CMake Application.contest6h" />
       <item itemvalue="CMake Application.contest6i" />
       <item itemvalue="CMake Application.new_target" />
+      <item itemvalue="CMake Application.new_target2" />
       <item itemvalue="CMake Application.seminar10" />
       <item itemvalue="CMake Application.seminar11_1" />
       <item itemvalue="CMake Application.seminar11_2" />
@@ -716,7 +728,8 @@
       <workItem from="1709204792583" duration="1219000" />
       <workItem from="1709228031027" duration="628000" />
       <workItem from="1709248662206" duration="35000" />
-      <workItem from="1709313764005" duration="1624000" />
+      <workItem from="1709313764005" duration="1816000" />
+      <workItem from="1709742015701" duration="3293000" />
     </task>
     <task id="LOCAL-00001" summary="contest 1 task I">
       <created>1697658841918</created>
@@ -916,7 +929,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709206667745</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="cont6 task">
+      <created>1709316252295</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1709316252295</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
